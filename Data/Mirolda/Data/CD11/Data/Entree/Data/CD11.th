@@ -11,7 +11,9 @@ survey CD11 -title "CD11" -entrance CD11
     date 2022.09.13 
      team "Lionel Revil"
      team "Alexandre Pont" 
-    explo-date 1973
+    explo-date 1971
+      explo-team "Groupe AVEN"
+    explo-date 1972
       explo-team "Groupe AVEN"
      # depuis entrée 
     units length meters
