@@ -1,0 +1,24 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+ 
+survey F126 -title "Gouffre de la Rondelle Jaune - F126"
+
+ centerline -extend right    
+    
+    date 2021.08.12
+        team "Xavier Robert"
+
+    cs long-lat   
+
+    #fix F126 6.75026 46.09791	833  #ALT IGN --> Coordonnées Fausses
+    cs EPSG:27572   # LII étendu
+    fix F126 944110 2130860	2330
+    station F126 "G. de la Rondelle Jaune (F126)" entrance air-draught continuation #explored ????m
+  
+endcenterline
+
+ endsurvey
