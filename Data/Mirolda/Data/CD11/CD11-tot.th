@@ -23,9 +23,9 @@ survey CD11 -title "Gouffre Mirolda - CD11"
 	# Import du dessin en plan
 	#input Data/CD11.th2
 	# Jonction au niveau de -97 m
-	#join ?? SP-MA-6
+	join SP-CD11-1@CD11 SP-MA-6@Bivouac270
 	# Jonction des Yougoslaves
-	#join ?? SP-MA-6
+	#join ?? SP-MA-6@Bivouac270
 	# Jonction au niveau de -250 m
 	join SP-Bivouac-1@Bivouac270 SP-Conf-3@Confluence
 	# Jonction au niveau de -370 m

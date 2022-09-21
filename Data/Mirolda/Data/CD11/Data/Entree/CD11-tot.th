@@ -15,7 +15,7 @@ survey CD11 -title "Gouffre Mirolda - Entrée CD11"
 	#input Data/CD11-coupe.th2
 
 	# Import des maps
-	#input CD11-maps.th
+	input CD11-maps.th
  
  endsurvey
  
