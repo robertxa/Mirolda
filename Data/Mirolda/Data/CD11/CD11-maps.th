@@ -7,8 +7,8 @@ encoding  utf-8
 map MP-CD11-plan-tot -title "Gouffre Mirolda - CD11"
 	MP-CD11-plan-tot@CD11
     break
-    #MB-Yougo
-    #break
+    MP-Yougo-plan-tot@Yougo  [0 50 m] below
+    break
     MP-Bivouac270-plan-tot@Bivouac270
     break
     MP-Confluence-plan-tot@Confluence

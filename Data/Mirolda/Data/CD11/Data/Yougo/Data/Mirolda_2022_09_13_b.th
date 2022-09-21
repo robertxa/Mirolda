@@ -106,15 +106,15 @@ survey Yougo -title "Yougo"
     10 . 3.81 114.7 30.0
     10 . 2.81 88.0 30.3
     extend right
-    10 11 10.57 318.3 17.1  # ptr yolrap02
+    10 PTRYOLRAP02 10.57 318.3 17.1  # ptr yolrap02
     # extend auto
-    11 . 1.58 243.4 -10.1
-    11 . 0.77 38.9 -0.7
-    11 . 0.26 328.3 78.9
-    11 . 0.55 215.3 -81.6
-    11 . 1.01 318.4 16.8
+    PTRYOLRAP02 . 1.58 243.4 -10.1
+    PTRYOLRAP02 . 0.77 38.9 -0.7
+    PTRYOLRAP02 . 0.26 328.3 78.9
+    PTRYOLRAP02 . 0.55 215.3 -81.6
+    PTRYOLRAP02 . 1.01 318.4 16.8
     extend right
-    11 12 9.37 324.9 18.1 # sorties passage étroit 
+    PTRYOLRAP02 12 9.37 324.9 18.1 # sorties passage étroit 
     # extend auto
     12 . 0.65 197.2 2.8
     12 . 0.38 11.1 -4.6
@@ -140,7 +140,7 @@ survey Yougo -title "Yougo"
     14 . 7.68 275.3 -41.4
     14 . 7.67 274.4 -43.0
     extend ignore
-    14 15 7.74 274.3 -43.1  # bas du puits non descendu ptr yo le ap 03
+    14 PTRYOLEAP03 7.74 274.3 -43.1  # bas du puits non descendu ptr yo le ap 03
     extend left
     5 5A 5.35 196.7 -37.6
     # extend auto
@@ -150,15 +150,15 @@ survey Yougo -title "Yougo"
     5A . 0.54 245.2 -69.5
     5A . 4.03 201.9 0.2
     extend ignore
-    5A 5B 3.36 183.2 -12.3  # ptr yo LRAP 04
+    5A PTRYOLRAP04 3.36 183.2 -12.3  # ptr yo LRAP 04
     # extend auto
-    5B . 3.41 184.0 -12.1
-    5B . 0.60 215.9 3.6
-    5B . 2.62 321.0 5.5
-    5B . 2.46 337.0 80.1
-    5B . 1.38 78.6 -81.9
+    PTRYOLRAP04 . 3.41 184.0 -12.1
+    PTRYOLRAP04 . 0.60 215.9 3.6
+    PTRYOLRAP04 . 2.62 321.0 5.5
+    PTRYOLRAP04 . 2.46 337.0 80.1
+    PTRYOLRAP04 . 1.38 78.6 -81.9
     extend ignore
-    5B 5C 2.52 325.0 -6.0 # sommet r4 vieille échelle 
+    PTRYOLRAP04 5C 2.52 325.0 -6.0 # sommet r4 vieille échelle 
     # extend auto
     5C . 2.52 320.7 -4.1
     5C . 2.59 182.9 1.6
