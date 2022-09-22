@@ -364,7 +364,7 @@ select MC-Criou-coupe-tot
 
 # Export des fichiers kml
 # export map -proj plan -fmt kml -o Outputs/Criou-2022.kml -layout my_layout
- export model -fmt kml -o Outputs/Criou-2022-model.kml -enable all
+ export model -fmt kml -o Outputs/Criou-model.kml -enable all
 
 # Export de la database sql
 # export des statistiques de l'ensemble de la cavité
