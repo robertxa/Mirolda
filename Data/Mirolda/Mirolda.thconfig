@@ -284,13 +284,13 @@ endlayout
 #export map -proj extended -layout xviexport -fmt xvi -o Data/Mirolda-coupe.xvi
 
 # Selection des Maps à exporter
-select MP-Mirolda-plan-tot
-select MC-Mirolda-coupe-tot
+select MP-Mirolda-plan-tot@Mirolda
+select MC-Mirolda-coupe-tot@Mirolda
 
 # Export des fichiers pdf, plan et coupe. 
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
  export map -proj plan -fmt pdf -o Outputs/Criou-2022-plan.pdf -layout my_layout
- #export map -proj plan -fmt pdf -o Outputs/Criou-2022-plan-continuations.pdf -layout my_layout-continuations
+ export map -proj plan -fmt pdf -o Outputs/Criou-2022-plan-continuations.pdf -layout my_layout-continuations
  #export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Criou-2022-coupe.pdf
  #export map -projection extended -fmt pdf -layout layout-coupe-continuations -o Outputs/Criou-2022-coupe-continuations.pdf
 #export atlas -o Outputs/Criou-atlas.pdf -layout atlas_layout
