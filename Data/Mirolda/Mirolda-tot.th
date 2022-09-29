@@ -6,7 +6,7 @@ encoding  utf-8
 
 survey Mirolda -title "Gouffre Mirolda - Réseau Lucien Bouclier"
 	## Le CD11 vers l'aval, ainsi que le réseau des Yougoslaves
-	#input Data/CD11/CD11-tot.th
+	input Data/CD11/CD11-tot.th
 	## Le réseau Lucien Bouclier
 	input Data/Rondelle-Jaune-F126/F126-tot.th
 		#equate ??@??.CD11 ??@??.F126
