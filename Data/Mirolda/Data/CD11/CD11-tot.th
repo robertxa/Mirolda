@@ -20,6 +20,9 @@ survey CD11 -title "Gouffre Mirolda - CD11"
 	input Data/Yougo/Yougo-tot.th
 		equate PTRMADG0@Yougo.Yougo PTRMADG0@madg0.Bivouac270
 	
+	# Anciennes Données topos des Cavernicoles
+	input Data/TRO/CD11-tot.th
+	
 	# Jonctions des dessins en plan
 	# Jonction au niveau de -97 m
 	join SP-CD11-1@CD11 SP-MA-6@Bivouac270
