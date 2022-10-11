@@ -60,6 +60,8 @@ centerline -extend right
 #		0	0	-90	# VF46 - DEPART GALERIE CHAUVE SOURIS
 VF3-16-0	VF3-16-1	8.13	219	72.5	# Départ ????? -- Au sommet du P36 ?
                 # [Note Alex: raccord NOK a voir ???sur VF3-15-16]
+                # [Réponse Xav : Si on force ce bouclage avec VF3_15-16, ça fait une énorme erreur de bouclage]
+#VF3-15-16	VF3-16-1	8.13	219	72.5
 VF3-16-1	VF3-16-2	3.02	202	30	
 VF3-16-2	VF3-16-3	14.12	46	79	
 VF3-16-3	VF3-16-4	1.37	281	7	
