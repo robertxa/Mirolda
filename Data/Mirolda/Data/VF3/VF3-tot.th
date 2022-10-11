@@ -52,14 +52,14 @@ survey VF3 -title "Gouffre VF3"
 	
 	input Data/Hongroise/Hongroise-tot.th	# Galerie Hongroise
 		#equate ???@Hongroise.Hongroise ???@???.???
-		#equate VF3_Erreur@Hongroise.Hongroise VF3-11-60@DDiscovery.DDiscovery
+		equate VF3_Erreur@Hongroise.Hongroise VF3-11-60@DDiscovery.DDiscovery
 		#equate VF3_Erreur@Hongroise.Hongroise VF3-11-60@Sado-Bozzo.Sado-Bozzo
 		
 		# Test
 		equate VF3-ST-66@Hongroise.Hongroise VF3-11-60@Sado-Bozzo.Sado-Bozzo
-		#equate VF3_Erreur@Hongroise.Hongroise VF3-22-19@DDiscovery2.DDiscovery2
-		#equate VF3-ST-65@Hongroise.Hongroise VF3-22-19@DDiscovery2.DDiscovery2
-		equate VF3-ST-21@Hongroise.Hongroise VF3-22-19@DDiscovery2.DDiscovery2
+		##equate VF3_Erreur@Hongroise.Hongroise VF3-22-19@DDiscovery2.DDiscovery2
+		##equate VF3-ST-65@Hongroise.Hongroise VF3-22-19@DDiscovery2.DDiscovery2
+		#equate VF3-ST-21@Hongroise.Hongroise VF3-22-19@DDiscovery2.DDiscovery2
 		# End Test
 		
 		# A FAIRE ????
