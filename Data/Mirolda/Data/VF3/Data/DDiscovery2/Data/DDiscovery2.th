@@ -209,8 +209,8 @@ centerline -extend right
 
     units length meters
     units compass clino degrees
-    data normal from to length compass backclino
-    #data normal from to length compass clino    # backclino ou pas ?
+    #data normal from to length compass backclino
+    data normal from to length compass clino    # backclino ou pas ?
 VF3-21-5	VF3-22-1	0	0   0		# Départ du fond du réseau   [Note Alex: Origine NOK]
 VF3-22-1	VF3-22-2	7.4	315	3.5	
 VF3-22-2	VF3-22-3	6.88	234	9	

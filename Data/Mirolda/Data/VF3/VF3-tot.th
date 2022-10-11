@@ -33,6 +33,7 @@ survey VF3 -title "Gouffre VF3"
 	input Data/Sado-Bozzo/Sado-Bozzo-tot.th	# Réseau Sado-Bozzo. 
 		#equate VF3-11-60@Sado-Bozzo.Sado-Bozzo VF3-11-60@DDiscovery.DDiscovery
 		
+		# Equate qui paraissait proche de la réalité ?
 		#equate VF3-11-60@Sado-Bozzo.Sado-Bozzo VF3-22-19@DDiscovery2.DDiscovery2
 		
 			#[By Alex: Raccord VF3-12-33@Sado-Bozzo.Sado-Bozzo sur VF3-17-20 ou ? VF3-10-69]
@@ -53,11 +54,14 @@ survey VF3 -title "Gouffre VF3"
 		#equate ???@Hongroise.Hongroise ???@???.???
 		#equate VF3_Erreur@Hongroise.Hongroise VF3-11-60@DDiscovery.DDiscovery
 		#equate VF3_Erreur@Hongroise.Hongroise VF3-11-60@Sado-Bozzo.Sado-Bozzo
+		
 		# Test
-		equate VF3-66@Hongroise.Hongroise VF3-11-60@Sado-Bozzo.Sado-Bozzo
+		equate VF3-ST-66@Hongroise.Hongroise VF3-11-60@Sado-Bozzo.Sado-Bozzo
 		#equate VF3_Erreur@Hongroise.Hongroise VF3-22-19@DDiscovery2.DDiscovery2
-		equate VF3-65@Hongroise.Hongroise VF3-22-19@DDiscovery2.DDiscovery2
+		#equate VF3-ST-65@Hongroise.Hongroise VF3-22-19@DDiscovery2.DDiscovery2
+		equate VF3-ST-21@Hongroise.Hongroise VF3-22-19@DDiscovery2.DDiscovery2
 		# End Test
+		
 		# A FAIRE ????
 
 
