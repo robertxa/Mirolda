@@ -4,23 +4,18 @@ encoding  utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
-survey Bivouac270 -title "Gouffre Mirolda - La Majestueuse"
+survey Amont-Majestueuse -title "Gouffre Mirolda - Amont Majestueuse"
 	# Pour importer les différentes données de différents fichiers topos : 
-	input Data/madg0.th
-	input Data/20220912miroldaXR1.th
-		equate PTRMAXR0@madg0 PTRMAXR0@20220912miroldaXR1
-	input Data/VieuxTRO.th
-		equate 117@CD11-Affluents 16@20220912miroldaXR1
-		equate 64@CD11-Affluents 6@madg0
+	input Data/Amont-Majestueuse.th
 	
 	# Import du dessin en plan
-	input Data/20220912miroldaXR1.th2
+	#input Data/Amont-Majestueuse.th2
 
 	# Import du dessin en coupe
-	input Data/20220912miroldaXR1-coupe.th2
+	#input Data/Amont-Majestueuse-coupe.th2
 
 	# Import des maps
-	input Bivouac270-maps.th
+	#input Amont-Majestueuse-maps.th
  
  endsurvey
  
