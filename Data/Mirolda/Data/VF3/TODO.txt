@@ -1,22 +1,16 @@
 A FAIRE sur le gouffre VF3 :
 
 - VF3 :
-	* Raccorder les petits bouts de topo
-	* Vérifier les raccord, il y a des erreurs
-	# Raccorder le dossier Hongroise --> OK ?
+	* Raccorder les petits bouts de topo (VF45 et VF46)
 
 - Falaise :
-	* Vérifier quand même si la jonction avec VF3 est correcte !
 	* Trouver les coordonnées de l'entrée Falaise !
 
-- Trouver jonction avec F126, je ne suis pas sûr de moi
-
-
-Ce qui est OK pour le VF3 :
-	*  
+- Dessiner le plan
+- Trouver comment faire les coupe développées du VF3 et F126
+- Dessiner coupes développée
 
 Done :
-	- VF3 OK
-	- Falaise OK. 
-	- Chauves Souris OK
+	- Intégration de toutes les données Ursus du VF3
+	- Squelette coupe étirer Jocker
 	- 
