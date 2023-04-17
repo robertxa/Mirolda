@@ -24,6 +24,7 @@ centerline -extend right
 	units length meters
     units compass clino degrees
 	data normal from to length compass clino right left up down				
+       
        flags duplicate
        s47_0 s47_1 3.34 277.00 -7.20  0.00 0.00  0.00 0.00  
        s47_1 s47_2 3.26 259.00 -12.60  0.00 0.00  0.00 0.00  
@@ -34,6 +35,7 @@ centerline -extend right
        s47_6 s47_7 9.07 346.00 22.50  0.00 0.00  0.00 0.00  
        s47_7 s47_8 2.30 312.00 20.70  0.00 0.00  0.00 0.00  # Observ: =62,82 station 71prime
        flags not duplicate
+
        s47_8 s47_9 3.82 288.00 -11.70  0.00 0.00  0.00 0.00  
        s47_9 s47_10 2.85 330.00 23.40  0.00 0.00  0.00 0.00  
        s47_10 s47_11 3.15 243.00 9.00  0.00 0.00  0.00 0.00  

@@ -27,7 +27,7 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appellera 
 # "jb.th" et a leur tour, "jb.th" appellera
 # "jb-dessin.th2")
-source Mirolda-tot.th
+source Amonts-tot.th
 
 # Add Coordinates
 input legendes/entrances_coordinates.th
@@ -213,8 +213,8 @@ layout layout-coupe
   # Dessin ou pas du cheminement topo
   #symbol-hide point station        
   #debug scrap-names
-  #debug station-names
-  symbol-hide line survey
+  debug station-names
+  #symbol-hide line survey
   
   layers on
                 

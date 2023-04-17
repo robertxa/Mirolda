@@ -8,7 +8,7 @@ encoding  utf-8
  
 survey Jonction-VF3 -title "Gouffre de la Rondelle Jaune - F126 - 1000 Jonction-VF3"
 
-centerline -extend right    
+centerline -extend left    
     
 	# Serie: 72 - cote VF3
     #========================
@@ -33,7 +33,7 @@ centerline -extend right
 
 endcenterline
 
-centerline -extend right    
+centerline -extend left    
     
 	# Serie: 73   F123 Jonction escalade VF3
     #========================
@@ -83,7 +83,7 @@ centerline -extend right
 
 endcenterline
 
-centerline -extend right    
+centerline -extend right   
     
 	# Serie: 74 - 75  
     #========================
@@ -109,7 +109,7 @@ centerline -extend right
        s74_6 s74_7 9.21 102.60 36.00  0.00 0.00  0.00 0.00  
        s74_7 s74_8 4.70 112.50 18.90  0.00 0.00  0.00 0.00  
        s74_8 s73_20 5.93 121.50 29.70  0.00 0.00  0.00 0.00  # Observ: =611.20
-
+        extend left
        s74_2 s75_1 3.95 207.00 -15.30  0.00 0.00  0.00 0.00  
        s75_1 s75_2 6.68 337.50 73.80  0.00 0.00  0.00 0.00  
        s75_2 s75_3 3.75 342.00 44.10  0.00 0.00  0.00 0.00  
@@ -131,7 +131,7 @@ centerline -extend right
 
 endcenterline
 
-centerline -extend right    
+centerline -extend left    
     
 	# Serie: 76 - 77
     #========================

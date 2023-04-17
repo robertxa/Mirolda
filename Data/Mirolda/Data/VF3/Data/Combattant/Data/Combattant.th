@@ -24,8 +24,10 @@ centerline -extend right
 	units length meters
     units compass clino degrees
 	data normal from to length compass clino right left up down
+       #extend left
        s14_7 s48_1 6.48 348.30 -6.30  0.00 0.00  0.00 0.00  
-       s48_1 s48_2 4.82 67.50 22.50  0.00 0.00  0.00 0.00  
+       s48_1 s48_2 4.82 67.50 22.50  0.00 0.00  0.00 0.00 
+       extend left 
        s48_2 s48_3 12.79 342.00 60.30  0.00 0.00  0.00 0.00  # E12
        s48_3 s48_4 6.19 44.10 64.80  0.00 0.00  0.00 0.00  # E7
        s48_4 s48_5 7.40 64.80 3.60  0.00 0.00  0.00 0.00  
@@ -34,7 +36,8 @@ centerline -extend right
        s48_7 s48_8 6.46 18.90 44.10  0.00 0.00  0.00 0.00  
        s48_8 s48_9 5.58 73.80 -7.20  0.00 0.00  0.00 0.00  
        s48_9 s48_10 10.33 56.70 35.10  0.00 0.00  0.00 0.00  
-       s48_10 s48_11 10.46 82.80 42.30  0.00 0.00  0.00 0.00  
+       s48_10 s48_11 10.46 82.80 42.30  0.00 0.00  0.00 0.00
+        extend right  
        s48_11 s48_12 5.33 49.50 -1.80  0.00 0.00  0.00 0.00  
        s48_12 s48_13 6.08 65.70 -5.40  0.00 0.00  0.00 0.00  
        s48_13 s48_14 7.49 63.00 -20.70  0.00 0.00  0.00 0.00  
@@ -279,7 +282,7 @@ centerline -extend right
 
 endcenterline
 
-centerline -extend right    # [Ajout Alex]
+centerline -extend left    # [Ajout Alex]
     
 	# Serie: 59 - Jonction SadoBozzo Galerie du bivouac 
     #========================
