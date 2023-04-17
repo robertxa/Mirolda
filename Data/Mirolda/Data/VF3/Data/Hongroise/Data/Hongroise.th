@@ -1,6 +1,6 @@
 encoding  utf-8
 
-# Copyright (C) 1999 Ursus - 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# Copyright (C) 1999 Ursus - 2023 Alexandre Pont & Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
@@ -16,9 +16,7 @@ centerline -extend right    #[Ajout Alex]
     date 1990 09 02
 		team "Sylvain Matricon"
 	
-    explo-date 1972
-        explo-team "Equipe d'Exploration Spéléo de/Villefranche sur Saône"
-    explo-date 1978
+    explo-date 1990
         explo-team "Groupe Spéléo/Ursus"
 		
 	units length meters
@@ -41,7 +39,7 @@ centerline -extend right    #[Ajout Alex]
        s11_14 s11_15 10.27 273.00 -9.00  1.00 1.00  1.80 1.20  
        s11_15 s11_16 11.61 270.00 -6.00  1.00 1.00  1.80 1.20  
        s11_16 s11_17 11.61 282.00 -5.00  1.00 1.00  1.20 1.80  
-       s11_17 s11_18 11.61 273.00 -6.00  1.00 1.00  1.00 1.00  
+       s11_17 s11_18 11.61 273.00 -6.00  1.00 1.00  1.00 1.00  # Jonction avec gouffre des Jockers
        s11_18 s11_19 15.24 301.00 6.00  1.50 1.50  1.80 1.20  
        s11_19 s11_20 7.03 235.00 -15.00  1.00 1.00  1.80 1.20  
        s11_20 s13_0 8.31 287.00 4.00  1.00 1.00  1.80 1.20  # Observ: =13.0
@@ -63,7 +61,7 @@ centerline -extend right    #[Ajout Alex]
        s13_4 s13_5 15.02 46.00 24.00  0.60 0.60  0.00 0.50  
        s13_5 s13_6 15.02 50.00 21.00  0.70 0.80  0.70 0.80  
        s13_6 s13_7 15.02 22.00 26.00  0.00 0.00  0.00 0.00  
-       s13_7 s41_0 15.72 15.00 44.00  0.00 0.00  0.00 0.00  # Observ: =41.0
+       s13_7 s41_0 15.72 15.00 44.00  0.00 0.00  0.00 0.00  # Observ: =41.0 ; Jonction avec Discovery
 
 endcenterline
 
@@ -76,9 +74,7 @@ centerline -extend right    #[Ajout Alex]
     date 1990 09 03
 		team "Laurent Mangel"
 	
-    explo-date 1972
-        explo-team "Equipe d'Exploration Spéléo de/Villefranche sur Saône"
-    explo-date 1978
+    explo-date 1990
         explo-team "Groupe Spéléo/Ursus"
 		
 	units length meters
@@ -90,7 +86,7 @@ centerline -extend right    #[Ajout Alex]
        s14_3 s14_4 13.94 318.00 12.15  0.00 0.00  0.00 0.00  
        s14_4 s14_5 4.53 282.00 -3.15  0.00 0.00  0.00 0.00  
        s14_5 s14_6 4.06 304.00 17.55  0.00 0.00  0.00 0.00  
-       s14_6 s14_7 7.08 263.00 -2.25  0.00 0.00  0.00 0.00  # Observ: 66
+       s14_6 s14_7 7.08 263.00 -2.25  0.00 0.00  0.00 0.00  # Observ: 66 ; Jonction avec Sado Bozzo, Parcours du Combattant et F126
 	   
 	# Serie: 15 - VFH5
     #========================
@@ -110,13 +106,13 @@ centerline -extend right    #[Ajout Alex]
 	   
 	# Serie: 16 - VFH6
     #========================
-	   s12_4 s16_1 9.91 272.00 59.00  0.00 0.00  0.00 0.00  
+	   s12_4 s16_1 9.91 272.00 59.00  0.00 0.00  0.00 0.00  # E7
        s16_1 s16_2 13.09 234.00 -1.35  0.00 0.00  0.00 0.00  
        s16_2 s15_1 14.36 239.00 -13.95  0.00 0.00  0.00 0.00  # Observ: station 65
 	   
 	# Serie: 17 - VFH7
     #========================
-	   s17_0 s17_1 7.03 242.00 -30.15  0.00 0.00  0.00 0.00  # Observ: =18.0 71
+	   s17_0 s17_1 7.03 242.00 -30.15  0.00 0.00  0.00 0.00  # Observ: =18.0 71 ; Jonction avec Discovery 2
        s17_1 s17_2 3.47 323.00 23.85  0.00 0.00  0.00 0.00  
        s17_2 s17_3 7.79 7.00 41.85  0.00 0.00  0.00 0.00  
        s17_3 s17_4 5.21 26.00 22.95  0.00 0.00  0.00 0.00  
@@ -153,9 +149,7 @@ centerline -extend right    #[Ajout Alex]
 		team "Sylvain Matricon"
 		team "Gaëlle Denavit"
 	
-    explo-date 1972
-        explo-team "Equipe d'Exploration Spéléo de/Villefranche sur Saône"
-    explo-date 1978
+    explo-date 1999
         explo-team "Groupe Spéléo/Ursus"
 		
 	units length meters

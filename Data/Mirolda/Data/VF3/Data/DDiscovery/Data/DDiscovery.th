@@ -1,6 +1,6 @@
 encoding  utf-8
 
-# Copyright (C) 1992 Ursus - 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# Copyright (C) 1992 Ursus - 2023 Alexandre Pont & Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
@@ -18,9 +18,7 @@ centerline -extend right
 		team "Jean Bottazzi"
 		team "Pascale Bottazzi"
 	
-    explo-date 1972
-        explo-team "Equipe d'Exploration Spéléo de/Villefranche sur Saône"
-    explo-date 1978
+    explo-date 1990
         explo-team "Groupe Spéléo/Ursus"
 		
 	units length meters
@@ -36,7 +34,7 @@ centerline -extend right
        s41_7 s41_8 12.06 53.00 5.00  0.00 0.00  0.00 0.00  
        s41_8 s41_9 6.08 54.00 22.50  0.00 0.00  0.00 0.00  
        s41_9 s41_10 9.03 60.00 -2.50  0.00 0.00  0.00 0.00  
-       s41_10 s41_11 25.65 0.00 90.00  0.00 0.00  0.00 0.00  
+       s41_10 s41_11 25.65 0.00 90.00  0.00 0.00  0.00 0.00  # P25
        s41_11 s41_12 1.50 225.00 -10.00  0.00 0.00  0.00 0.00  
        s41_12 s41_13 11.71 0.00 90.00  0.00 0.00  0.00 0.00  
        s41_13 s41_14 2.48 305.00 6.00  0.00 0.00  0.00 0.00  
@@ -79,9 +77,7 @@ centerline -extend right    #[Ajout Alex]
 		team "Cédric Felices"
 		team "Ptit Laurent"
 	
-    explo-date 1972
-        explo-team "Equipe d'Exploration Spéléo de/Villefranche sur Saône"
-    explo-date 1978
+    explo-date 1990
         explo-team "Groupe Spéléo/Ursus"
 		
 	units length meters
