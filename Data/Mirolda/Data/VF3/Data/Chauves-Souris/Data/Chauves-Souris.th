@@ -134,7 +134,7 @@ centerline -extend right     # [Note Alex: Ajout]
 
 endcenterline
 
-centerline -extend right     #[Note Alex: VF45]
+centerline -extend left     #[Note Alex: VF45]
      
     date 1991   #[Note Alex: par defaut en attente info
 		team "Cédric Felices"

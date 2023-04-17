@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SP-Falaise-1 -projection plan -station-names "" "@Falaise" -author 1998 "G.S. Ursus" -author 2023 "Xavier Robert" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1230.3628 -128.0 0.0 0.0 34.50241512 0.0 m]
+scrap SP-Falaise-1 -projection plan -station-names "" "@Falaise" -author 1998 "Groupe Spéléo/Ursus" -author 2023 "Xavier Robert" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1230.3628 -128.0 0.0 0.0 34.50241512 0.0 m]
 
 point 372.55699999999996 968.73 station -name s33_13
 
@@ -246,7 +246,7 @@ endscrap
 
 
 
-scrap SP-Falaise-2 -projection plan -station-names "" "@Falaise" -author 1998 "G.S. Ursus" -author 2023 "Xavier Robert" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1230.3628 -128.0 0.0 0.0 34.50241512 0.0 m]
+scrap SP-Falaise-2 -projection plan -station-names "" "@Falaise" -author 1998 "Groupe Spéléo/Ursus" -author 2023 "Xavier Robert" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1230.3628 -128.0 0.0 0.0 34.50241512 0.0 m]
 
 line wall -subtype invisible
   1022.5 147.25
@@ -427,7 +427,7 @@ endscrap
 
 
 
-scrap SP-Falaise-3 -projection plan -station-names "" "@Falaise" -author 1998 "G.S. Ursus" -author 2023 "Xavier Robert" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1230.3628 -128.0 0.0 0.0 34.50241512 0.0 m]
+scrap SP-Falaise-3 -projection plan -station-names "" "@Falaise" -author 1998 "Groupe Spéléo/Ursus" -author 2023 "Xavier Robert" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1230.3628 -128.0 0.0 0.0 34.50241512 0.0 m]
 
 line wall
   339.75 932.25

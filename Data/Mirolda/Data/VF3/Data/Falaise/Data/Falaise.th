@@ -32,6 +32,7 @@ survey Falaise -title "Entrée de la Falaise - Réseau Lucien Bouclier - Mirolda
     units length meters
     units compass clino degrees
 	data normal from to length compass clino right left up down
+        extend left
 	   s31_5 s2_1 7.29 193.00 -6.00  0.00 0.00  0.00 0.00  
        s2_1 s2_2 3.60 150.00 14.00  0.00 0.00  0.00 0.00  
        s2_2 s2_3 3.55 135.00 14.00  0.00 0.00  0.00 0.00  
@@ -47,12 +48,15 @@ survey Falaise -title "Entrée de la Falaise - Réseau Lucien Bouclier - Mirolda
        s2_12 s2_13 4.42 106.00 15.00  0.00 0.00  0.00 0.00  
        s2_13 Falaise 6.34 176.00 4.00  0.00 0.00  0.00 0.00  # Observ: sortie falaise  
 
+        extend left
        s33_2 s3_1 4.51 88.00 -2.00  0.00 0.00  0.00 0.00  
        s3_1 s3_2 5.77 136.00 -33.00  0.00 0.00  0.00 0.00  
+        #extend right
        s3_2 s3_3 11.04 20.00 10.00  0.00 0.00  0.00 0.00  	   
-	   
+	    extend right
 	   s3_2 s33_3 10.62 266.00 -1.00  0.00 0.00  0.00 0.00  
-	   
+
+	    extend right
 	   s33_0 s33_1 5.42 251.00 4.00  0.00 0.00  0.00 0.00  
        s33_1 s33_2 6.47 210.00 -26.00  0.00 0.00  0.00 0.00  
        s33_2 s33_3 6.38 220.00 -30.00  0.00 0.00  0.00 0.00  

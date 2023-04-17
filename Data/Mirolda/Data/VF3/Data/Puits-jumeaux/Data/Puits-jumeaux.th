@@ -23,6 +23,7 @@ centerline -extend right
 	units length meters
     units compass clino degrees
 	data normal from to length compass clino right left up down	
+        extend left
 	   s38_9 s40_1 5.20 30.00 17.55  0.00 0.00  0.00 0.00  
        s40_1 s40_2 6.84 341.00 3.15  0.00 0.00  0.00 0.00  
        s40_2 s40_3 5.19 16.00 -31.95  0.00 0.00  0.00 0.00  
@@ -62,6 +63,7 @@ centerline -extend right
        s40_36 s40_37 3.77 87.00 -61.65  0.00 0.00  0.00 0.00  
        s40_37 s40_38 20.69 0.00 -90.00  0.00 0.00  0.00 0.00  
        s40_38 s40_39 9.26 90.00 -64.35  0.00 0.00  0.00 0.00  # Observ: station 52 ; P10
+       extend right
        s40_39 s40_40 6.97 214.00 -7.65  0.00 0.00  0.00 0.00  
        s40_40 s40_41 5.60 267.00 -2.25  0.00 0.00  0.00 0.00  
        s40_41 s40_42 7.06 205.00 -24.75  0.00 0.00  0.00 0.00  
@@ -190,7 +192,7 @@ centerline -extend right    #[Ajout Alex]
 	# [note Alex] explo URSUS 20
     date 1991 08 21
 		team "Laurent Mangel"
-		team "Lorent Guizard" # lor XXX
+		team "Laurent Guizard" # lor XXX
 	
     explo-date 1991
         explo-team "Groupe Spéléo/Ursus"

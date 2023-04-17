@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SP-Chauves-Souris-1 -projection plan -station-names "" "@Chauves-Souris" -author 1998 "G.S. Ursus" -author 2023 "Xavier Robert" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1151.6226000000001 -128.0 0.0 0.0 32.502414040000005 0.0 m]
+scrap SP-Chauves-Souris-1 -projection plan -station-names "" "@Chauves-Souris" -author 1998 "Groupe Spéléo/Ursus" -author 2023 "Xavier Robert" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1151.6226000000001 -128.0 0.0 0.0 32.502414040000005 0.0 m]
 
 point 472.75 483.25 label -text "cairn"
 
@@ -305,7 +305,7 @@ endscrap
 
 
 
-scrap SP-Chauves-Souris-2 -projection plan -station-names "" "@Chauves-Souris" -author 1998 "G.S. Ursus" -author 2023 "Xavier Robert" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1151.6226000000001 -128.0 0.0 0.0 32.502414040000005 0.0 m]
+scrap SP-Chauves-Souris-2 -projection plan -station-names "" "@Chauves-Souris" -author 1998 "Groupe Spéléo/Ursus" -author 2023 "Xavier Robert" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1151.6226000000001 -128.0 0.0 0.0 32.502414040000005 0.0 m]
 
 line pit -reverse on
   742.25 328.25
@@ -458,7 +458,7 @@ endscrap
 
 
 
-scrap SP-Chauves-Souris-3 -projection plan -station-names "" "@Chauves-Souris" -author 1998 "G.S. Ursus" -author 2023 "Xavier Robert" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1151.6226000000001 -128.0 0.0 0.0 32.502414040000005 0.0 m]
+scrap SP-Chauves-Souris-3 -projection plan -station-names "" "@Chauves-Souris" -author 1998 "Groupe Spéléo/Ursus" -author 2023 "Xavier Robert" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1151.6226000000001 -128.0 0.0 0.0 32.502414040000005 0.0 m]
 
 line wall
   897.75 395.5
