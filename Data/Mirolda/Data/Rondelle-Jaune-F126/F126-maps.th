@@ -17,7 +17,12 @@ map MP-F126-plan-tot -title "Gouffre de la Rondelle Jaune - F126"
 endmap
 
 map MC-F126-coupe-tot -title "Gouffre de la Rondelle Jaune - F126"
-	MC-Marches-coupe-tot@Marches
+	#MC-Marches-coupe-tot@Marches
+	MC-Marches-1@Marches
+	break
+	MC-Marches-2@Marches [0 40] below
+	break 
+	MC-Marches-3@Marches
 	break
 	MC-Jonction-VF3-coupe-tot@Jonction-VF3
 	break
