@@ -269,7 +269,7 @@ select MC-Amonts-Mirolda-coupe-tot@Mirolda
 
 # Export des fichiers pdf, plan et coupe. 
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
-# export map -proj plan -fmt pdf -o Outputs/Lucien_Bouclier-plan.pdf -layout my_layout
+ export map -proj plan -fmt pdf -o Outputs/Lucien_Bouclier-plan.pdf -layout my_layout
  #export map -proj plan -fmt pdf -o Outputs/Mirolda-plan-continuations.pdf -layout my_layout-continuations
  export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Lucien_Bouclier-coupe.pdf
  #export map -projection extended -fmt pdf -layout layout-coupe-continuations -o Outputs/Mirolda-coupe-continuations.pdf
