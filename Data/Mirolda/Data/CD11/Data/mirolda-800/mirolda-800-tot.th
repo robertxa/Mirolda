@@ -1,0 +1,12 @@
+encoding  utf-8
+
+survey mirolda-800 -title "mirolda-800"
+   	input Data/mirolda-800.th
+	
+   	input Data/mirolda-800-plan.th2
+	input Data/mirolda-800-coupe.th2
+
+	input mirolda-800-maps.th
+
+	
+endsurvey

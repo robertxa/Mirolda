@@ -1,0 +1,27 @@
+encoding  utf-8
+
+## coupe
+
+map MC-hasselblad2023-2-coupe-1 -title "hasselblad2023-2"
+  SC-hasselblad2023-1
+endmap
+
+map MC-hasselblad2023-2-coupe-2 -title "hasselblad2023-2"
+  SC-hasselblad2023-2
+endmap
+
+map MC-hasselblad2023-2-coupe-tot -title "hasselblad2023-2"
+
+MC-hasselblad2023-2-coupe-2 [0 -35] below
+break
+MC-hasselblad2023-2-coupe-1
+
+endmap
+
+##Plan
+map MP-hasselblad2023-2-plan-tot -title "hasselblad2023-2"
+  SP-hasselblad2023-3-1
+  SP-hasselblad2023-3-2
+
+endmap
+
