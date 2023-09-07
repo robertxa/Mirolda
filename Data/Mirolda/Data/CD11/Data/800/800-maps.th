@@ -1,0 +1,14 @@
+encoding  utf-8
+
+##Plan
+map MP-800-plan-tot -title "800"
+  SP-800-1
+
+endmap
+
+
+##Coupe
+map MC-800-coupe-tot -title "800"
+  SC-800-1
+
+endmap

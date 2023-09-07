@@ -27,7 +27,7 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appellera 
 # "jb.th" et a leur tour, "jb.th" appellera
 # "jb-dessin.th2")
-source Yougo-tot.th
+source Aval-Dragounet-tot.th
 
 # Add Coordinates
 #input legendes/entrances_coordinates.th
@@ -78,6 +78,9 @@ layout my_layout
   # ou similaire, sinon, l'échelle sera changée pendant l'impression! 
   scale 1 1000
 
+  # Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
+  scale-bar 100 m
+
   # Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
   #grid bottom
   grid off
@@ -102,7 +105,7 @@ layout my_layout
   # Auteur 
   doc-author "Xavier Robert"
   # Titule
-  doc-title "Yougo plan - 1:1000"
+  doc-title "CD11 plan - 1:1000"
 
   # Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
   # Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -111,7 +114,7 @@ layout my_layout
   # Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
   # Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
   # ou une autre combination...
-  map-header 0 -60 nw
+  map-header 0 -100 nw
 
   # arrière plan de la manchette
   map-header-bg on
@@ -123,9 +126,6 @@ layout my_layout
 
   # Par défaut, la légende est de 14 cm de largeur
   legend-width 21 cm
-
-  # Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
-  scale-bar 100 m
 
   # Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
   # dont le nom est probablement le titule de la topo.
@@ -142,8 +142,8 @@ layout my_layout
   # Dessin ou pas du cheminement topo
   #symbol-hide point station        
   #debug scrap-names
-  #debug station-names
-  symbol-hide line survey
+  debug station-names
+  #symbol-hide line survey
 
   layers on
 
@@ -158,7 +158,7 @@ layout my_layout
 		\edef\nostring{}                 % empty string 
 		\ifx\temp\nostring             % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Gouffre Mirolda - Réseau des Yougoslaves} 
+			\cavename={Gouffre Mirolda - Aval-Dragounet} 
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Collectif Mirolda 2022}
@@ -205,10 +205,10 @@ layout layout-coupe
   # Auteur 
   doc-author "Xavier Robert"
   # Titule
-  doc-title "Yougo coupe développée - 1:1000"
+  doc-title "CD11 coupe développée - 1:1000"
 
   # Position de la manchette. Voir layout ci-dessus.
-  map-header 0 -40 nw
+  map-header 0 -50 nw
 
   # arrière plan de la manchette
   map-header-bg on
@@ -217,11 +217,10 @@ layout layout-coupe
   legend on
 
   # Par defaut, la legende est de 14 cm de largeur
-  legend-width 18 cm
+  legend-width 19 cm
 
   # Un commentaire a ajouter au titule. Voir layout ci-dessus.
   map-comment "Massif du Criou, Samoëns, 74, France"
-
  
   # Afficher les statistiques d'explo/topo par équipe/nom.
   statistics explo-length off
@@ -234,7 +233,7 @@ layout layout-coupe
   #symbol-hide point station        
   #debug scrap-names
   debug station-names
-  symbol-hide line survey
+  #symbol-hide line survey
   
   layers on
                 
@@ -244,7 +243,7 @@ layout layout-coupe
 		\edef\nostring{}                 % empty string 
 		\ifx\temp\nostring             % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Gouffre Mirolda - Réseau des Yougoslaves} 
+			\cavename={Gouffre Mirolda - Aval-Dragounet} 
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Collectif Mirolda 2022}
@@ -260,36 +259,29 @@ layout layout-coupe
 # 3-EXPORT
 
 # Export des xvi pour le dessin si besoin
-export map -fmt xvi -layout xviexport -o Data/Yougo-map.xvi
-#export map -proj extended -layout xviexport -fmt xvi -o Data/Yougo-coupe.xvi
+#export map -fmt xvi -layout xviexport -o Data/CD11-map.xvi
+#export map -proj extended -layout xviexport -fmt xvi -o Data/CD11-coupe.xvi
 
 # Selection des Maps à exporter
-select MP-Yougo-plan-tot@Yougo
-select MC-Yougo-coupe-tot@Yougo
+select MP-Aval-Dragounet-plan-tot@Aval-Dragounet
+select MC-Aval-Dragounet-coupe-tot@Aval-Dragounet
 
 # Export des fichiers pdf, plan et coupe. 
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
- export map -proj plan -fmt pdf -o Outputs/Criou-2022-plan.pdf -layout my_layout
- export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Criou-2022-coupe.pdf
+ export map -proj plan -fmt pdf -o Outputs/Aval-Dragounet-plan.pdf -layout my_layout
+ export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Aval-Dragounet-coupe.pdf
 #export atlas -o Outputs/Criou-atlas.pdf -layout atlas_layout
 
 # Export du fichier 3d pour Loch
- export model -enable all -o Outputs/Yougo-2022.lox
-
-# Export des fichiers ESRI
-# export map -proj plan -fmt esri -o Outputs/Yougo-2022 -layout my_layout
-
-# Export des fichiers kml
-# export map -proj plan -fmt kml -o Outputs/Yougo-2022.kml -layout my_layout
- export model -fmt kml -o Outputs/Yougo-2022-model.kml -enable all
+ export model -enable all -o Outputs/Aval-Dragounet.lox
 
 # Export de la database sql
 # export des statistiques de l'ensemble de la cavité
 #    Attention, les points de départ et d'arrivée de chaque centreline correspondent
 #    au second point et à l'avant dernier point de la série.
-export database -fmt sql -o Outputs/databaseYougo-2022.sql
+#export database -fmt sql -o Outputs/databaseCD11-2022.sql
 
-export continuation-list -o Outputs/ContinuationsYougo-2022.html
-#export continuation-list -o Outputs/ContinuationsYougo-2022.kml
-export survey-list -location on -o Outputs/SurveysYougo2022.html
-#export cave-list -location on -o Outputs/CavesYougo2022.html
+#export continuation-list -o Outputs/ContinuationsCD11-2022.html
+##export continuation-list -o Outputs/ContinuationsCD11-2022.kml
+#export survey-list -location on -o Outputs/SurveysCD112022.html
+##export cave-list -location on -o Outputs/CavesCD112022.html

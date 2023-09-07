@@ -1,0 +1,12 @@
+encoding  utf-8
+
+survey 800 -title "800"
+   	input Data/800.th
+	
+   	input Data/800-plan.th2
+	input Data/800-coupe.th2
+
+	input 800-maps.th
+
+	
+endsurvey

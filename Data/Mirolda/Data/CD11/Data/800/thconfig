@@ -2,12 +2,9 @@ encoding  utf-8
 
 # 1-SOURCES 
 
-source siphon_-600-tot.th
+source 800-tot.th
 
 # Add entrances coordinates
-#input legendes/entrances_coordinates.th
-
-# Add config file
 input /home/urrutyb/Documents/Spéléo/database_speleo/Chartreuse/Réseau_ded/topo_kriska/therion_kriska/config.thc 
 
 #DEM
@@ -35,7 +32,7 @@ layout my_layout
    copy langue-fr
       
    # Titre  
-   doc-title "siphon_-600"
+   doc-title "800"
    # Auteur
    doc-author "Benoît Urruty"
 
@@ -154,9 +151,9 @@ layout my_layout
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % siphon_-600 if cavename is empty
+      \ifx\temp\nostring          % 800 if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={siphon -600} 		
+         \cavename={mirolda -800} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={GUCEM}
@@ -175,7 +172,7 @@ layout my_layout-coupe
    copy langue-fr
       
    # Titre  
-   doc-title "siphon_-600"
+   doc-title "800"
    # Auteur
    doc-author "Benoit Urruty"
 
@@ -287,9 +284,9 @@ layout my_layout-coupe
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % siphon_-600 if cavename is empty
+      \ifx\temp\nostring          % 800 if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={siphon -600} 		
+         \cavename={mirolda -800} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={GUCEM}
@@ -300,24 +297,24 @@ endlayout
   
 # 3-EXPORTS
 
-export map -fmt xvi -layout xviexport -o Data/siphon_-600-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/siphon_-600-coupe.xvi
-export map -proj [elevation 17] -layout xviexport -o Data/siphon_-600-coupe_elevation.xvi 
+export map -fmt xvi -layout xviexport -o Data/800-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/800-coupe.xvi
+export map -proj [elevation 17] -layout xviexport -o Data/800-coupe_elevation.xvi 
 
 # Select maps
-#	select MP-siphon_-600-plan-tot@siphon_-600
-#  select MC-siphon_-600-coupe-tot@siphon_-600
+#	select MP-800-plan-tot@800
+#  select MC-800-coupe-tot@800
 	 
-export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/siphon_-600-coupe_elevation.pdf 
-export map -projection extended -layout my_layout-coupe -o Outputs/siphon_-600-coupe.pdf 
-export map -o Outputs/siphon_-600-plan.pdf -layout my_layout
+export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/800-coupe_elevation.pdf 
+export map -projection extended -layout my_layout-coupe -o Outputs/800-coupe.pdf 
+export map -o Outputs/800-plan.pdf -layout my_layout
  
-export model -o Outputs/siphon_-600.lox
+export model -o Outputs/800.lox
 export continuation-list -o Outputs/questions.html
-export cave-list -o Outputs/siphon_-600.html  
+export cave-list -o Outputs/800.html  
 
 # Export des fichiers ESRI
-export map -proj plan -fmt esri -o Outputs/siphon_-600 -layout my_layout
+export map -proj plan -fmt esri -o Outputs/800 -layout my_layout
   
 # Export des fichiers kml
-export map -proj plan -fmt kml -o Outputs/siphon_-600.kml -layout my_layout
+export map -proj plan -fmt kml -o Outputs/800.kml -layout my_layout
