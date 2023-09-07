@@ -1,0 +1,13 @@
+encoding  utf-8
+
+survey 900 -title "900"
+   input Data/230906_BMPRGF_CD11.th
+   input Data/mirolda_mkbu.th
+
+   equate mkbu.30@mirolda_mkbu 46@230906_BMPRGF_CD11
+	
+   input Data/mirolda_mkbu_plan.th2
+	#input Data/900-coupe.th2
+	input 900-maps.th
+	
+endsurvey
