@@ -7,7 +7,11 @@ survey 900 -title "900"
    equate mkbu.30@mirolda_mkbu 46@230906_BMPRGF_CD11
 	
    input Data/mirolda_mkbu_plan.th2
-	#input Data/900-coupe.th2
+	input Data/230906_BMPRGF_CD11-plan.th2
+
+   join SP-BMPRGF-1 SP-900-1
+   #join 
+
 	input 900-maps.th
 	
 endsurvey

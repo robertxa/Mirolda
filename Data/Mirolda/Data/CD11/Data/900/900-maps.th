@@ -3,13 +3,15 @@ encoding  utf-8
 
 map MP-900-plan-tot -title "900"
   SP-900-2
-  SP-900-1
-  break
-  
-  break
   SP-900-3
+  SP-900-1
+  
+  SP-BMPRGF-2
+  SP-BMPRGF-1
 
 endmap
+
+
 
 #map MP-900-coupe-tot -title "900"
 #  SP-900-1

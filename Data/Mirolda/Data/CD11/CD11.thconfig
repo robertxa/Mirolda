@@ -303,7 +303,7 @@ export map -projection extended -fmt pdf -layout my_layout-coupe -o Outputs/CD11
 #export atlas -o Outputs/CD11-atlas.pdf -layout atlas_layout
 
 # Export du fichier 3d pour Loch
- export model -enable all -o Data/CD11-2022.lox
+ export model -enable all -o Outputs/CD11-2022.lox
 
 # Export des fichiers ESRI
  export map -proj plan -fmt esri -o Outputs/CD11-2022 -layout my_layout
