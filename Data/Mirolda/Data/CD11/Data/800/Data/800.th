@@ -1,27 +1,29 @@
 # 2023.09.03 created by TopoDroid v 6.2.13
 
-survey 800 -title "mirolda -800"
+survey 800 -title "Rivière de -640 m à -780 m"
 
   centerline
     date 2023.09.02 
-    # team LARA DANANAI CHARLOTTE HONIAT BENOIT URRUTY 
+     team "Lara Dananai"
+     team "Charlotte Honiat"
+     team "Benoit Urruty" 
     units length meters
     units compass clino degrees
     data normal from to length compass clino
     # extend auto
-    0 . 10.67 126.8 70.6
-    0 . 3.32 68.2 33.9
-    0 . 3.84 101.2 22.5
-    0 . 4.78 134.1 11.8
-    0 . 8.35 161.2 1.8
-    0 . 11.28 180.2 -2.1
-    0 . 4.52 194.9 1.3
-    0 . 2.16 236.8 10.2
-    0 . 6.73 330.0 31.1
-    0 . 9.42 158.7 -29.8
-    0 . 5.77 199.6 -33.1
+    PTRMFBF08 . 10.67 126.8 70.6
+    PTRMFBF08 . 3.32 68.2 33.9
+    PTRMFBF08 . 3.84 101.2 22.5
+    PTRMFBF08 . 4.78 134.1 11.8
+    PTRMFBF08 . 8.35 161.2 1.8
+    PTRMFBF08 . 11.28 180.2 -2.1
+    PTRMFBF08 . 4.52 194.9 1.3
+    PTRMFBF08 . 2.16 236.8 10.2
+    PTRMFBF08 . 6.73 330.0 31.1
+    PTRMFBF08 . 9.42 158.7 -29.8
+    PTRMFBF08 . 5.77 199.6 -33.1
     extend right
-    0 1 11.39 187.5 -36.8
+    PTRMFBF08 1 11.39 187.5 -36.8
     # extend auto
     1 . 3.08 134.3 -10.4
     1 . 2.75 88.0 -4.1
@@ -570,14 +572,14 @@ survey 800 -title "mirolda -800"
     57 . 3.13 89.8 3.5
   endcenterline
 
-  # input "800-1p.th2"
-  # input "800-1s.th2"
+  # input "mirolda_-800-1p.th2"
+  # input "mirolda_-800-1s.th2"
 
   # map m1p -projection plan
-  #   800-1p
+  #   mirolda_-800-1p
   # endmap
   # map m1s -projection extended
-  #   800-1s
+  #   mirolda_-800-1s
   # endmap
 
 endsurvey

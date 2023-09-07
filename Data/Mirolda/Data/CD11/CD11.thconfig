@@ -287,8 +287,8 @@ endlayout
 # 3-EXPORT
 
 # Export des xvi pour le dessin si besoin
-#export map -fmt xvi -layout xviexport -o Data/CD11-map.xvi
-#export map -proj extended -layout xviexport -fmt xvi -o Data/CD11-coupe.xvi
+export map -fmt xvi -layout xviexport -o Data/CD11-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/CD11-coupe.xvi
 
 # Selection des Maps à exporter
 select MP-CD11-plan-tot@CD11
@@ -296,14 +296,14 @@ select MC-CD11-coupe-tot@CD11
 
 # Export des fichiers pdf, plan et coupe. 
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
- export map -proj plan -fmt pdf -o Outputs/CD11-2022-plan.pdf -layout my_layout
- export map -proj plan -fmt pdf -o Outputs/CD11-2022-plan-continuations.pdf -layout my_layout-continuations
- export map -projection extended -fmt pdf -layout my_layout-coupe -o Outputs/CD11-2022-coupe.pdf
+export map -proj plan -fmt pdf -o Outputs/CD11-2022-plan.pdf -layout my_layout
+#export map -proj plan -fmt pdf -o Outputs/CD11-2022-plan-continuations.pdf -layout my_layout-continuations
+export map -projection extended -fmt pdf -layout my_layout-coupe -o Outputs/CD11-2022-coupe.pdf
  #export map -projection extended -fmt pdf -layout my_layout-coupe-continuations -o Outputs/CD11-2022-coupe-continuations.pdf
 #export atlas -o Outputs/CD11-atlas.pdf -layout atlas_layout
 
 # Export du fichier 3d pour Loch
- export model -enable all -o Outputs/CD11-2022.lox
+ export model -enable all -o Data/CD11-2022.lox
 
 # Export des fichiers ESRI
  export map -proj plan -fmt esri -o Outputs/CD11-2022 -layout my_layout
@@ -318,7 +318,7 @@ select MC-CD11-coupe-tot@CD11
 #    au second point et à l'avant dernier point de la série.
 export database -fmt sql -o Outputs/databaseCD11-2022.sql
 
-export continuation-list -o Outputs/ContinuationsCD11-2022.html
+#export continuation-list -o Outputs/ContinuationsCD11-2022.html
 #export continuation-list -o Outputs/ContinuationsCD11-2022.kml
 export survey-list -location on -o Outputs/SurveysCD112022.html
 #export cave-list -location on -o Outputs/CavesCD112022.html

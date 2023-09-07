@@ -1424,7 +1424,7 @@ line wall
 endline
 
 
-point 196.85 -236.22 station -name "0"
+point 196.85 -236.22 station -name "PTRMFBF08"
 point 555.99 -504.99 station -name "1"
 point 770.85 -512.54 station -name "2"
 point 919.02 -529.28 station -name "3"
