@@ -31,8 +31,8 @@ map MP-CD11-plan-tot -title "Gouffre Mirolda - CD11"
 	break
 	MP-500-plan-tot@500
     break
-    #MP-Aval-Dragounet-plan-tot@Aval-Dragounet
-    #break
+    MP-Aval-Dragounet@Aval-Dragounet
+    break
     MP-800-plan-tot@800
     break
     MP-900-plan-tot@900
