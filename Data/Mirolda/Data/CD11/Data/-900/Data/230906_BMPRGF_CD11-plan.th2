@@ -5,10 +5,7 @@ encoding  utf-8
 
 # 2023.09.07 created by TopoDroid v. 6.2.13
 
-
-
-
-scrap SP-BMPRGF-1 -projection plan -station-names "" "@230906_BMPRGF_CD11" -author 2023 "Barnabé Maurice" -author 2023 "Benoît Urruty" -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap SP-BMPRGF-1 -projection plan -station-names "" "@230906_BMPRGF_CD11" -author 2023 "Barnabé Maurice" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
 
 line wall
   -6.94 -125.82
@@ -946,7 +943,7 @@ endscrap
 
 
 
-scrap SP-BMPRGF-2 -projection plan -station-names "" "@230906_BMPRGF_CD11" -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap SP-BMPRGF-2 -projection plan -station-names "" "@230906_BMPRGF_CD11" -author 2023 "Barnabé Maurice" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
 
 line wall -subtype invisible
   381.05 -825.16

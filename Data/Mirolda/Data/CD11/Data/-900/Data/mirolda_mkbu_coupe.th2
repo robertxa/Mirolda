@@ -8,7 +8,7 @@ encoding  utf-8
 
 
 
-scrap SC-900-1 -projection extended -author 2023 "Benoît Urruty" -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap SC-900-1 -projection extended -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
 
 line wall -close on -reverse on
   -3652.0 2550.0
@@ -569,7 +569,7 @@ endscrap
 
 
 
-scrap SC-900-2 -projection extended -author 2023 "Benoît Urruty" -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap SC-900-2 -projection extended -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
 
 line wall -subtype presumed
   318.5 -353.5
@@ -861,7 +861,7 @@ endscrap
 
 
 
-scrap SC-900-3 -projection extended -author 2023 "Benoît Urruty" -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap SC-900-3 -projection extended -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
 
 area water
 endarea

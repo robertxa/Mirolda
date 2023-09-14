@@ -8,7 +8,7 @@ encoding  utf-8
 
 
 
-scrap SP-900-1 -projection plan -station-names "" "@mirolda_mkbu" -author 2023 "Benoît Urruty" -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap SP-900-1 -projection plan -station-names "" "@mirolda_mkbu" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
 
 line wall -subtype presumed
   109.0 -141.0
@@ -393,7 +393,7 @@ endscrap
 
 
 
-scrap SP-900-2 -projection plan -station-names "" "@mirolda_mkbu" -author 2023 "Benoît Urruty" -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap SP-900-2 -projection plan -station-names "" "@mirolda_mkbu" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
 
 line label -text "Conduite forcée"
   -311.0 -2529.0
@@ -976,7 +976,7 @@ endscrap
 
 
 
-scrap SP-900-3 -projection plan -station-names "" "@mirolda_mkbu" -author 2023 "Benoît Urruty" -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap SP-900-3 -projection plan -station-names "" "@mirolda_mkbu" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
 
 line pit
   1772.0 484.0

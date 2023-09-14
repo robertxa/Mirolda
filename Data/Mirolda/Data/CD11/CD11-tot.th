@@ -61,6 +61,8 @@ survey CD11 -title "Gouffre Mirolda - CD11"
 	# Aval vers -800
 	input Data/-800/-800-tot.th
 		equate PTRMFBF08@mirolda_-800.800 PTRMFBF0@riviere_tonitruante.500
+		## Jonction au niveau de -640
+		join SP-riviere_tonitruante-1@500 SP-800-1@800
 	# Aval de la rivière Dragounet
 	input Data/Aval-Dragounet/Aval-Dragounet-tot.th
 		equate PTRRDBF4@siphon-600.Aval-Dragounet PTRRDBF4@riviere_tonitruante.500
@@ -71,6 +73,8 @@ survey CD11 -title "Gouffre Mirolda - CD11"
 	# Aval vers -900 m
 	input Data/-900/900-tot.th
 		equate PTRBUCHLD4@mirolda_-800.800 PTRBUCHLD4@230906_BMPRGF_CD11.900
+		## Jonction au niveau de -800
+		join SP-900-1@900 SP-800-1@800
 
 	# Aval du CD11
 	input Data/AvalTRO/AvalTRO-tot.th
@@ -92,10 +96,8 @@ survey CD11 -title "Gouffre Mirolda - CD11"
 	join SP-SA-1@Confluence SP-mirolda_coulee_calcite_remonte-1p@500
 	## Jonction de l'Aval Dragounet
 	#join SP-riviere_tonitruante-1@500 SP-Aval-Dragounet-1@Aval-Dragounet
-	## Jonction au niveau de -640
-	#join SP-riviere_tonitruante-1@500 SP-800-1@800
-	## Jonction au niveau de -800
-	#join SP-900-1@900 SP-800-1@800
+
+
 
 	# Jonctions des dessins en coupe
 	# Jonction au niveau de -97 m
