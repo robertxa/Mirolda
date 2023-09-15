@@ -128,6 +128,7 @@ layout my_layout
 
   # Par défaut, la légende est de 14 cm de largeur
   legend-width 21 cm
+  legend-columns 3
 
   # Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
   # dont le nom est probablement le titule de la topo.
@@ -143,8 +144,13 @@ layout my_layout
   
   # Dessin ou pas du cheminement topo
   #symbol-hide point station        
-  #debug scrap-names
   #debug station-names
+  #debug scrap-names
+  #  color map-fg scraps
+  #  color-legend off
+	color map-fg altitude
+	color-legend smooth
+	symbol-hide point rope
   symbol-hide line survey
 
   #debug all
@@ -166,9 +172,9 @@ layout my_layout
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Collectif Mirolda 2022 - 2023}
-		\newtoks\synth \synth={S.C. Lyon, S.C. Cavernicoles (1981), Alexandre Pont, Xavier Robert (2023)}
+		\newtoks\synth \synth={S.C. Lyon, S.C. Cavernicoles (1981), Jean-Claude Raymond (1986), Alexandre Pont, Xavier Robert (2023)}
     \newtoks\datat \datat={https://github.com/robertxa/Mirolda}
-    \newtoks\thanksto \thanksto={Cette synthèse topographique n'aurait pu avoir vu le jour sans le fort soutien du groupe spéléo Ursus pour le partage de leur connaissance, ainsi que l'ouverture de l'ensemble de la Fruitière du Criou. Merci aussi à ceux qui ont transmis les données en leur possession !}
+    \newtoks\thanksto \thanksto={Cette synthèse topographique n'aurait pu avoir vu le jour sans le fort soutien des URSUS pour le partage de leur connaissance, ainsi que l'ouverture de l'ensemble de la Fruitière du Criou. Merci aussi à ceux qui ont transmis les données en leur possession !}
 	endcode   
   
  endlayout
@@ -256,9 +262,9 @@ layout my_layout-coupe
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Collectif Mirolda 2022 - 2023}
-		\newtoks\synth \synth={S.C. Lyon, S.C. Cavernicoles (1981), Alexandre Pont, Xavier Robert (2023)}
+		\newtoks\synth \synth={S.C. Lyon, S.C. Cavernicoles (1981), Jean-Claude Raymond (1986), Alexandre Pont, Xavier Robert (2023)}
     \newtoks\datat \datat={https://github.com/robertxa/Mirolda}
-    \newtoks\thanksto \thanksto={Cette synthèse topographique n'aurait pu avoir vu le jour sans le fort soutien du groupe spéléo Ursus pour le partage de leur connaissance, ainsi que l'ouverture de l'ensemble de la Fruitière du Criou. Merci aussi à ceux qui ont transmis les données en leur possession !}
+    \newtoks\thanksto \thanksto={Cette synthèse topographique n'aurait pu avoir vu le jour sans le fort soutien des URSUS pour le partage de leur connaissance, ainsi que l'ouverture de l'ensemble de la Fruitière du Criou. Merci aussi à ceux qui ont transmis les données en leur possession !}
 	endcode   
 
  endlayout
