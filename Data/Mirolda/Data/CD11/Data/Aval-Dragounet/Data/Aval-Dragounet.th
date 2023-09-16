@@ -221,8 +221,8 @@ survey Aval-Dragounet -title "Aval-Dragounet"
     extend left
     26 27 2.87 254.7 -13.0
     27 28 2.11 158.4 -11.1
-    extend right
     28 29 1.58 319.6 80.5
+    extend right
     25 30 2.35 1.1 8.1
     # extend auto
     30 . 0.34 204.3 76.5
