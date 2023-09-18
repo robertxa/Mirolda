@@ -26,6 +26,7 @@ endline
 line wall -subtype flowstone
   509.04 237.03
   509.04 237.03 272.0 96.0 236.0 20.0
+  smooth off
 endline
 
 line wall -subtype flowstone
@@ -92,6 +93,7 @@ line wall
   1081.78 -1010.76 1096.84 -1013.45 1106.5 -1023.42
   1116.38 -1033.62 1117.39 -1049.94 1125.77 -1061.4
   1131.68 -1069.48 1182.05 -1114.88 1188.58 -1120.94
+  smooth off
 endline
 
 line wall -subtype flowstone
@@ -164,11 +166,13 @@ line wall -subtype clay
   1880.73 -1505.69 1865.29 -1499.21 1946.84 -1525.99
   1970.22 -1533.67 1995.42 -1537.93 2016.36 -1550.87
   2092.82 -1598.12 2040.33 -1610.92 2134.47 -1633.04
+  smooth off
 endline
 
 line wall
   2134.47 -1633.04
   2260.87 -1662.74 2157.83 -1596.06 2283.49 -1660.23
+  smooth off
 endline
 
 area water
@@ -850,6 +854,7 @@ line label -text "L'Impétueuse (rivière)"
   3440.0 -3268.0
   3440.0 -3268.0 6992.0 -5028.0 7108.0 -5076.0
   7224.0 -5124.0 10600.0 -5956.0 10716.0 -5960.0
+  smooth off
 endline
 
 area water
@@ -974,6 +979,7 @@ line water-flow
   5248.0 -3292.0 5482.0 -3434.0 5540.0 -3474.0
   5598.0 -3514.0 5778.0 -3630.0 5852.0 -3634.0
   5926.0 -3638.0 5996.0 -3644.0 6068.0 -3660.0
+  smooth off
 endline
 
 line water-flow -subtype intermittent
@@ -1004,6 +1010,7 @@ line water-flow
   4408.0 -2768.0 4472.0 -2762.0 4514.0 -2816.0
   4556.0 -2870.0 4620.0 -3060.0 4688.0 -3082.0
   4756.0 -3104.0 4832.0 -3094.0 4900.0 -3106.0
+  smooth off
 endline
 
 point 3258.0 -2622.0 water-flow -orientation 60.4
@@ -1022,7 +1029,7 @@ line wall
   smooth off
 endline
 
-point 11228.0 -5148.0 station-name -scale xs -align right
+point 11224.0 -5040.0 station-name -scale xs -align right
 
 area water
   l236-11094--5578
@@ -1055,34 +1062,6 @@ endline
 point 10912.49 -5225.26 stalagmite
 
 line wall
-  11165.9 -5519.45
-  11175.63 -5519.92 11185.9 -5517.61 11195.09 -5520.85
-  11234.77 -5534.83 11275.87 -5632.41 11298.42 -5669.17
-  smooth off
-  altitude .
-endline
-
-line border -id 1s-a39 -close on -subtype invisible
-  11312.0 -5615.25
-  11351.1 -5615.25
-  11387.27 -5614.71
-  11417.93 -5623.2
-  11411.41 -5658.39
-  11385.98 -5681.53
-  11349.76 -5685.88
-  11324.49 -5663.0
-  11308.19 -5630.82
-  11312.0 -5615.25
-endline
-
-area water
-  1s-a39
-endarea
-
-line wall
-  11323.54 -5271.31
-  11277.69 -5239.75
-  11229.61 -5214.09
   11179.37 -5211.49
   11108.28 -5242.28
 endline
