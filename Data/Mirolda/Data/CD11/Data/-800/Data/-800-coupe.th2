@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -208.0 -5828.0 13788.1649 9128.5715
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {199.94999999999982 1 1.0} {-249.19999999999982 PTRMFBF08} -800-coupe.xvi 0 {}
 
 # 2023.09.03 created by TopoDroid v. 6.2.13
@@ -609,12 +609,6 @@ line wall
 endline
 
 line wall
-  8151.2 -3984.47
-  8156.93 -4008.55
-  8158.09 -4016.64
-endline
-
-line wall
   8693.2 -4132.59
   8606.38 -4160.33 8650.44 -4152.87 8580.62 -4156.71
   8566.72 -4157.48 8552.59 -4162.14 8538.94 -4159.39
@@ -1095,4 +1089,5 @@ point 11055.31 -5453.49 station -name "56"
 point 11223.27 -5322.76 station -name "PTRBUCHLD4"
 
 endscrap
+
 
