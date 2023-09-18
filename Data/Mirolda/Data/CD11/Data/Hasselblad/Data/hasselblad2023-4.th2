@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -1469.67 -3281.54 4080.0 1722.0
+##XTHERION## xth_me_area_adjust -1469.67 -3281.54 4084.0 1728.0
 ##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {-1341.67 1 1.0} {-3153.54 0} Cd11-Hassenbad-1p.xvi 0 {}
 
@@ -87,11 +87,6 @@ point 3776.88 225.08 air-draught -orientation 341.8 -subtype summer
 line wall -subtype invisible
   2159.07 81.9
   2193.5 81.25
-endline
-
-line border
-  3662.0 1107.0
-  3608.0 1009.0
 endline
 
 line arrow
@@ -182,9 +177,10 @@ line wall
   smooth off
 endline
 
-line border -reverse on
+line slope -reverse on
   1797.0 573.0
   1749.0 497.0
+  l-size 40.0
   1694.0 418.0
 endline
 
@@ -334,29 +330,33 @@ endline
 
 point 2218.81 -25.64 continuation -attr Code D -attr Cavite "CD11" -attr Reseau "Hasselblad Double S" -text "Imp ?"
 
-line border -reverse on
+line slope -reverse on
   -601.0 -1383.0
   -601.0 -1383.0 -498.94 -1357.64 -478.0 -1362.0
   -430.0 -1372.0 -371.0 -1409.0 -355.0 -1488.0
   smooth off
+  l-size 40.0
 endline
 
-line border -reverse on
+line slope -reverse on
   -189.0 -1062.0
   -189.0 -1062.0 -148.0 -1025.0 -74.0 -1046.0
   0.0 -1067.0 19.0 -1131.0 25.0 -1133.0
   smooth off
+  l-size 40.0
 endline
 
-line border -reverse on
+line slope -reverse on
   -372.0 -780.0
   -372.0 -780.0 -319.0 -812.0 -292.0 -852.0
   -265.0 -892.0 -226.0 -977.0 -226.0 -986.0
   smooth off
+  l-size 40.0
 endline
 
-line border
+line slope -reverse on
   1984.44 453.35
+  l-size 40.0
   1928.42 306.87 1947.18 383.44 1929.76 223.24
   smooth off
 endline
@@ -816,19 +816,21 @@ line wall -reverse on
   smooth off
 endline
 
-line border -reverse on
+line slope -reverse on
   251.36 -670.99
   263.37 -673.24 276.29 -682.84 287.39 -677.73
   320.5 -662.5 347.82 -664.59 365.45 -665.8
   405.16 -668.52 427.73 -680.65 455.1 -706.03
   smooth off
+  l-size 40.0
 endline
 
-line border
+line slope -reverse on
   198.15 -776.11
   208.32 -779.43 219.11 -781.22 228.65 -786.06
   274.3 -809.21 318.58 -870.1 331.82 -919.51
   smooth off
+  l-size 40.0
 endline
 
 line arrow
@@ -837,8 +839,8 @@ line arrow
 endline
 
 line arrow
-  -80.0 -1025.0
-  -111.0 -1109.0
+  30.0 -918.0
+  -42.0 -990.0
 endline
 
 line arrow
@@ -895,8 +897,8 @@ area clay
 endarea
 
 line arrow
-  -388.45 -1323.82
-  -459.0 -1388.0
+  -332.0 -1272.0
+  -400.0 -1328.0
 endline
 
 line arrow

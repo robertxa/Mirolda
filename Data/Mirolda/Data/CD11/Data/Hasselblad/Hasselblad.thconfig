@@ -248,7 +248,7 @@ select MC-Hasselblad@Hasselblad
 
 # Export des fichiers pdf, plan et coupe. 
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
- export map -proj plan -fmt pdf -o Outputs/Mirolda-Hasselblad-plan-BU.pdf -layout my_layout
+ export map -proj plan -fmt pdf -o Outputs/Mirolda-Hasselblad-plan.pdf -layout my_layout
 # export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Mirolda-Hasselblad-coupe.pdf
 
 # Export du fichier 3d pour Loch
