@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -516.0 -6912.0 22728.0 200.0
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 100
 
 # 2022.09.14 created by TopoDroid v. 5.1.40
 
@@ -1786,9 +1786,8 @@ line wall
   22242.59 -6567.9 22217.6 -6555.65 22250.1 -6578.38
   22257.34 -6583.44 22265.9 -6586.55 22272.78 -6592.09
   22287.6 -6604.01 22298.78 -6622.46 22312.37 -6635.39
-  22380.18 -6699.94 22293.79 -6607.12 22359.5 -6679.79
+  22323.44 -6645.93 22351.0 -6657.0 22368.0 -6673.0
   smooth off
-  altitude .
 endline
 
 line wall -reverse on
@@ -1799,7 +1798,7 @@ line wall -reverse on
   smooth off
 endline
 
-point 21723.64 -6382.86 label -text "r5"
+point 21723.64 -6382.86 label -text "R5"
 
 point 22373.54 -6688.70 stalagmite
 
@@ -1837,7 +1836,7 @@ point 13422.0 -4682.0 station-name -scale xs -align bottom-left
 
 point 16198.0 -5368.0 station-name -scale xs -align bottom-left
 
-point 22580.0 -6764.0 station-name -scale xs
+point 22339.0 -6723.0 station-name -scale xs -align left
 
 line u:splay -visibility off
   -357.1 -283.19

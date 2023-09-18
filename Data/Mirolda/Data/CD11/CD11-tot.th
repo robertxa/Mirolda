@@ -63,6 +63,7 @@ survey CD11 -title "Gouffre Mirolda - CD11"
 		equate PTRMFBF08@mirolda_-800.800 PTRMFBF0@riviere_tonitruante.500
 		## Jonction au niveau de -640
 		join SP-riviere_tonitruante-1@500 SP-800-1@800
+		join SC-800-1@800 SC-Tonitruante-1@500
 	# Aval de la rivière Dragounet
 	input Data/Aval-Dragounet/Aval-Dragounet-tot.th
 		equate PTRRDBF4@Aval-Dragounet.Aval-Dragounet PTRRDBF4@riviere_tonitruante.500
@@ -74,6 +75,7 @@ survey CD11 -title "Gouffre Mirolda - CD11"
 		## Jonction au niveau de -800
 		#join SP-900-1@900 SP-800-1@800
 		join SP-BMPRGF-1@900 SP-800-1@800
+		#join MC-900-coupe-tot@900 SC-800-1@800
 
 	# Aval du CD11
 	input Data/AvalTRO/AvalTRO-tot.th
