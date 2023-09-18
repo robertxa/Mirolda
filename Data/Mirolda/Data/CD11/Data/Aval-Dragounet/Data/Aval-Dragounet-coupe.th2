@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -1660.0 -2264.0 1627.4977 196.7256000000002
+##XTHERION## xth_me_area_adjust -1664.5 -2256.5 1622.9977 204.2256000000002
 ##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {197.02999999999997 1 1.0} {-235.74 PTRRDBF4} Aval-Dragounet-coupe.xvi 0 {}
+##XTHERION## xth_me_image_insert {195.77999999999997 1 1.0} {-238.74 PTRRDBF4} Aval-Dragounet-coupe.xvi 0 {}
 
 # 2023.09.03 created by TopoDroid v. 6.2.13
 
@@ -282,15 +282,22 @@ line wall
   1177.65 -1787.5 1125.47 -1801.11 1090.35 -1797.65
   1082.47 -1796.87 1074.84 -1794.4 1067.04 -1793.05
   1059.34 -1791.72 1050.78 -1793.22 1043.84 -1789.62
-  1020.42 -1777.46 1041.26 -1770.69 1023.9 -1753.52
-  1018.66 -1748.34 1009.83 -1749.09 1002.99 -1746.35
-  971.08 -1733.57 957.26 -1715.57 920.42 -1724.1
+  1020.42 -1777.46 1039.36 -1758.17 1022.0 -1741.0
+  1016.76 -1735.82 848.76 -1759.98 855.5 -1746.5
+  smooth off
+endline
+
+point 1048.5 -1635.0 continuation -attr Code 'D' -attr Cavite 'CD11' -attr Reseau "Aval-Dragounet"  -attr CA "" -attr text "étroiture argileuse"
+
+line wall -subtype clay
+  855.5 -1746.5
+  857.5 -1742.5 995.58 -1707.9 1034.0 -1678.0
   smooth off
 endline
 
 line wall
-  920.42 -1724.1
-  891.51 -1723.92 859.74 -1724.54 831.54 -1716.62
+  982.0 -1648.0
+  953.09 -1647.82 859.74 -1724.54 831.54 -1716.62
   798.6 -1707.37 793.48 -1692.83 754.25 -1694.75
   smooth off
 endline
