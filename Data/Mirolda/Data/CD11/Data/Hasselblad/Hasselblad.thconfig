@@ -69,7 +69,7 @@ layout my_layout
   # après avoir dessiné la topo sur un cheminement exporté avec le layout "xviexport".
   # Jouer avec le ration base-scale/scale permet de jouer globalement sur les tailles
   # des caractères et des traits.
-  base-scale 1 100
+  base-scale 1 1000
   # Maitenant on va mettre une ligne "scale" pour specifier l'échelle pour imprimer la topo.
   # La combination entre scale et base-scale controlle l'épaisseur des lignes, rotation, etc, convenable
   # pour faire l'ampliation-réduction entre dessin et le resultat de l'imprimante
@@ -131,7 +131,7 @@ layout my_layout
   # Dessin ou pas du cheminement topo
   #symbol-hide point station        
   #debug scrap-names
-  debug station-names
+  #debug station-names
   symbol-hide line survey
 
   layers on
@@ -147,7 +147,7 @@ layout my_layout
 		\edef\nostring{}                 % empty string 
 		\ifx\temp\nostring             % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Gouffre Mirolda - Réseau des Hasselbladslaves} 
+			\cavename={Gouffre Mirolda - Galerie Hasselblad} 
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Collectif Mirolda 2023}
@@ -170,7 +170,7 @@ layout layout-coupe
   
   # La ligne base-scale specifie l'echelle auquel nous avons
   # dessine nos croquis. Voir layout ci-dessus.
-  base-scale 1 200
+  base-scale 1 1400
   # scale : pour specifier l'echelle pour imprimer la topo.  Voir layout ci-dessus.
   scale 1 1500
   # echelle graphique 150 m ampleur
@@ -223,7 +223,7 @@ layout layout-coupe
 		\edef\nostring{}                 % empty string 
 		\ifx\temp\nostring             % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Gouffre Mirolda - Réseau des Hasselbladslaves} 
+			\cavename={Gouffre Mirolda - Galerie Hasselblad} 
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Collectif Mirolda 2023}
