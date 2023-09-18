@@ -68,6 +68,7 @@ survey CD11 -title "Gouffre Mirolda - CD11"
 	input Data/Aval-Dragounet/Aval-Dragounet-tot.th
 		equate PTRRDBF4@Aval-Dragounet.Aval-Dragounet PTRRDBF4@riviere_tonitruante.500
 		join SP-Aval-Dragounet-1@Aval-Dragounet SP-riviere_tonitruante-1@500
+		join SC-Aval-Dragounet-2@Aval-Dragounet SC-Tonitruante-1@500
 
 	# Aval vers -900 m
 	input Data/-900/900-tot.th
