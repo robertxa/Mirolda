@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.75 -128.75 1520.25 709.5
-##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {897.0409999999999 1 1.0} {236.223 PTRMADG0} Yougo-coupe.xvi 0 {}
+##XTHERION## xth_me_area_adjust -129.5 -129.5 10237.6444 3750.0516000000002
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {2523.7609999999995 1 1.0} {1102.363 PTRMADG0@Yougo.Yougo} Yougo-coupe.xvi 0 {}
 
 
 
@@ -63,8 +63,6 @@ line label -text [Réseau des Yougoslaves]
   smooth off
 endline
 
-point 1362.25 556.0 continuation -attr Code P -attr Cavite "yougosdslaves" -text "vers réseau des Yougoslaves"
-
 point 1140.0 475.0 air-draught -orientation 241.9 -subtype summer
 
 point 598.75 227.5 air-draught -orientation 241.9 -subtype summer
@@ -92,13 +90,6 @@ line rope
   883.0 241.5
 endline
 
-line rope
-  1342.5 536.75
-  1313.0 535.0
-  1244.5 463.25
-  1244.0 384.75
-endline
-
 line wall -subtype clay
   1014.75 285.5
   1018.0 287.25 1020.5 288.5 1028.0 289.25
@@ -115,35 +106,13 @@ line wall -subtype clay
   1165.48 361.39 1169.79 369.06 1183.0 370.5
   1196.75 372.0 1212.5 376.0 1220.0 376.75
   1227.5 377.5 1240.25 380.0 1247.5 380.5
-  1254.75 381.0 1270.42 379.83 1277.25 386.5
-  smooth off
-  altitude .
-endline
-
-line wall
-  1277.25 386.5
-  altitude .
-  1287.75 396.75 1280.13 407.09 1302.25 419.5
-  1326.75 433.25 1335.0 441.75 1339.0 458.75
-  1340.65 465.75 1342.75 495.0 1342.75 499.5
-  smooth off
-  altitude .
 endline
 
 point 160.25 288.75 continuation
 
-line wall -subtype invisible
-  1342.75 499.5
-  1342.75 504.0 1345.75 534.5 1342.5 536.75
-  1339.25 539.0 1313.0 542.75 1312.0 540.75
-  smooth off
-endline
-
 line wall
-  1312.0 540.75
-  1311.0 538.75 1284.0 516.5 1280.75 514.0
-  1277.5 511.5 1251.25 487.25 1245.5 482.75
-  1239.75 478.25 1149.25 429.0 1141.75 426.5
+  1232.0 457.5
+  1222.0 455.0 1149.25 429.0 1141.75 426.5
   1134.25 424.0 1079.25 398.25 1067.75 393.0
   1056.25 387.75 1048.97 358.13 1037.5 355.0
   1026.5 352.0 1027.0 352.25 1027.0 352.25
@@ -228,8 +197,6 @@ endline
 
 point 153.25 336.5 height -value [-6 m]
 
-point 1391.0 455.25 height -value [+10 m]
-
 point 670.25 270.5 camp
 
 line wall
@@ -273,6 +240,7 @@ line wall
   711.0 242.5 706.0 239.5 703.0 240.25
   700.0 241.0 693.25 246.25 690.25 244.75
   687.25 243.25 665.0 238.25 661.5 237.5
+  smooth off
 endline
 
 line wall -subtype clay

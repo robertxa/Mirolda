@@ -59,8 +59,13 @@ endmap
 #####################
 
 map MC-Yougo-coupe-tot -title "Gouffre Mirolda - Réseau des Yougoslaves"
+	
+	SC-YOUGOSLAVE_29-08-23-1s
+	break
+	SC-YOUGOSLAVE_29-08-23-1s1
+	break
+	SC-Yougo-ChauveS-1
+	break
 	SC-Yougo-1
-#	break
-#	SC-B3c2
 endmap
    
