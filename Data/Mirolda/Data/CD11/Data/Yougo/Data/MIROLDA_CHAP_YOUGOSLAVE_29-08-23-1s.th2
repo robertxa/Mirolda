@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -133.0 -243.0 1939.5 463.5
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -138.0 -250.0 1948.0 560.0
+##XTHERION## xth_me_area_zoom_to 50
 
 # 2023.09.01 created by TopoDroid v. 5.1.40
 
@@ -31,9 +31,15 @@ point 1809.0 165.0 station-name -scale xs -align left
 
 point 1710.5 73.0 label -text "etr."
 
+line label -text "galerie amont des Yougoslaves"
+  576.0 406.0
+  576.0 406.0 1258.0 468.0 1564.0 380.0
+  smooth off
+endline
+
 line wall
-  1807.43 135.24
-  1760.5 149.0 1745.28 120.06 1711.66 120.91
+  1756.5 132.5
+  1738.0 130.5 1732.5 120.38 1711.66 120.91
   1693.55 121.37 1636.47 161.62 1622.32 171.45
   1610.83 179.43 1602.05 190.75 1591.91 200.4
   smooth off
@@ -44,7 +50,7 @@ line wall
   1604.0 132.86 1613.4 128.7 1622.88 124.73
   1633.83 120.14 1644.29 113.96 1655.84 111.23
   altitude .
-  1697.28 101.44 1740.95 112.81 1782.29 102.74
+  1697.28 101.44 1713.66 116.57 1755.0 106.5
   smooth off
 endline
 
@@ -1831,6 +1837,8 @@ line u:splay -visibility off
   1181.56 265.61
   1177.58 261.87
 endline
+
+point 1130.0 318.0 air-draught -orientation 270.4 -subtype summer
 
 line u:splay -visibility off
   1181.56 265.61

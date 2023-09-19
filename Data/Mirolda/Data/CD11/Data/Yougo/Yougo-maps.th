@@ -59,7 +59,24 @@ endmap
 #####################
 
 map MC-Yougo-coupe-tot -title "Gouffre Mirolda - Réseau des Yougoslaves"
+	SC-Enfoire-1
+	break
+	SC-Enfoire-2
+	break
+	SC-Enfoire-3
+	break
+	SC-Enfoire-6
+	break
+	SC-Enfoire-4
+	break
+	SC-Enfoire-5
+	break
+	# La salle du Pilier et le Puits Noir
 	
+	SC-YOUGOSLAVE_30-08-23-1s
+	break
+	SC-YougoJ-1
+	break
 	SC-YOUGOSLAVE_29-08-23-1s
 	break
 	SC-YOUGOSLAVE_29-08-23-1s1
@@ -67,5 +84,9 @@ map MC-Yougo-coupe-tot -title "Gouffre Mirolda - Réseau des Yougoslaves"
 	SC-Yougo-ChauveS-1
 	break
 	SC-Yougo-1
+	break
+	SC-Cabane-2
+	break
+	SC-Cabane-1
 endmap
    

@@ -217,7 +217,7 @@ layout layout-coupe
   legend off
 
   # Par defaut, la legende est de 14 cm de largeur
-  legend-width 14.5 cm
+  legend-width 15.5 cm
 
   # Un commentaire a ajouter au titule. Voir layout ci-dessus.
   map-comment "Massif du Criou, Samoëns, 74, France"
