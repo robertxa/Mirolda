@@ -10,7 +10,7 @@ survey Amont-Majestueuse -title "Gouffre Mirolda - Amont Majestueuse"
 	# Données levées en été 2023
 	input Data/majamonts2023.th
 
-	# Old data from D. Colliard
+	## Old data from D. Colliard
 	input Data/Amont-Majestueuse.th
 		equate 773@Amont-Majestueuse PTRMAXR04@majamonts2023
 
