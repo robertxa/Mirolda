@@ -1,6 +1,6 @@
 # 2023.09.06 created by TopoDroid v 6.1.38
 
-survey majamonts2023 -title "La Majestueuse, amonts (topo 2023)"
+survey majamonts2023 -title "La Majestueuse, amonts (2023)"
     # départ du point PTRCHAPLT09 du 30/08/2023 (Yougoslaves amonts)
 
   centerline
@@ -812,7 +812,7 @@ survey majamonts2023 -title "La Majestueuse, amonts (topo 2023)"
     53 . 3.33 26.4 24.5
     53 . 1.59 46.2 41.8
     53 . 2.44 37.0 18.8
-    extend left
+    extend right
     53 54 3.85 38.0 23.7
     extend left
     53 55 14.08 258.7 -18.0
