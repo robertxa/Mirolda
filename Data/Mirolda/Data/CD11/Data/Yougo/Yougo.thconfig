@@ -111,15 +111,15 @@ layout my_layout
   # Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
   # Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
   # ou une autre combination...
-  map-header 0 -60 nw
+  map-header 0 0 nw
 
   # arrière plan de la manchette
-  map-header-bg on
+  map-header-bg off
   
   # Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
   # sur la topo. Si l'on veut pour tous les symboles, utilisés ou pas, il faut indiquer "all".
   # "legend off" = pas de legende
-  legend on
+  legend off
 
   # Par défaut, la légende est de 14 cm de largeur
   legend-width 21 cm
@@ -208,16 +208,16 @@ layout layout-coupe
   doc-title "Yougo coupe développée - 1:1000"
 
   # Position de la manchette. Voir layout ci-dessus.
-  map-header 0 -40 nw
+  map-header 0 0 nw
 
   # arrière plan de la manchette
-  map-header-bg on
+  map-header-bg off
   
   # Légende. Voir layout ci-dessus.
-  legend on
+  legend off
 
   # Par defaut, la legende est de 14 cm de largeur
-  legend-width 18 cm
+  legend-width 15.5 cm
 
   # Un commentaire a ajouter au titule. Voir layout ci-dessus.
   map-comment "Massif du Criou, Samoëns, 74, France"
@@ -233,7 +233,7 @@ layout layout-coupe
   # Dessin ou pas du cheminement topo
   #symbol-hide point station        
   #debug scrap-names
-  debug station-names
+  #debug station-names
   symbol-hide line survey
   
   layers on
@@ -260,36 +260,36 @@ layout layout-coupe
 # 3-EXPORT
 
 # Export des xvi pour le dessin si besoin
-export map -fmt xvi -layout xviexport -o Data/Yougo-map.xvi
-#export map -proj extended -layout xviexport -fmt xvi -o Data/Yougo-coupe.xvi
+#export map -fmt xvi -layout xviexport -o Data/Yougo-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/Yougo-coupe.xvi
 
 # Selection des Maps à exporter
 select MP-Yougo-plan-tot@Yougo
-select MC-Yougo-coupe-tot@Yougo
+#select MC-Yougo-coupe-tot@Yougo
 
 # Export des fichiers pdf, plan et coupe. 
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
- export map -proj plan -fmt pdf -o Outputs/Criou-2022-plan.pdf -layout my_layout
- export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Criou-2022-coupe.pdf
+ export map -proj plan -fmt pdf -o Outputs/Yougoslaves-plan.pdf -layout my_layout
+ export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Yougoslaves-coupe.pdf
 #export atlas -o Outputs/Criou-atlas.pdf -layout atlas_layout
 
 # Export du fichier 3d pour Loch
  export model -enable all -o Outputs/Yougo-2022.lox
 
 # Export des fichiers ESRI
-# export map -proj plan -fmt esri -o Outputs/Yougo-2022 -layout my_layout
+ #export map -proj plan -fmt esri -o Outputs/Yougo -layout my_layout
 
 # Export des fichiers kml
 # export map -proj plan -fmt kml -o Outputs/Yougo-2022.kml -layout my_layout
- export model -fmt kml -o Outputs/Yougo-2022-model.kml -enable all
+# export model -fmt kml -o Outputs/Yougo-2022-model.kml -enable all
 
 # Export de la database sql
 # export des statistiques de l'ensemble de la cavité
 #    Attention, les points de départ et d'arrivée de chaque centreline correspondent
 #    au second point et à l'avant dernier point de la série.
-export database -fmt sql -o Outputs/databaseYougo-2022.sql
+#export database -fmt sql -o Outputs/databaseYougo-2022.sql
 
-export continuation-list -o Outputs/ContinuationsYougo-2022.html
+#export continuation-list -o Outputs/ContinuationsYougo-2022.html
 #export continuation-list -o Outputs/ContinuationsYougo-2022.kml
-export survey-list -location on -o Outputs/SurveysYougo2022.html
+#export survey-list -location on -o Outputs/SurveysYougo2022.html
 #export cave-list -location on -o Outputs/CavesYougo2022.html

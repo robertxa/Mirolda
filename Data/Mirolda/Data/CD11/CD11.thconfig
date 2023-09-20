@@ -30,7 +30,7 @@ encoding  utf-8
 source CD11-tot.th
 
 # Add Coordinates
-input legendes/entrances_coordinates.th
+input Legendes/entrances_coordinates.th
 
 # Add config file
 input ../../../../config.thc 
@@ -229,10 +229,11 @@ layout my_layout-coupe
   map-header-bg on
   
   # Légende. Voir layout ci-dessus.
-  legend off
+  legend on
 
   # Par defaut, la legende est de 14 cm de largeur
   legend-width 21 cm
+  legend-columns 3
 
   # Un commentaire a ajouter au titule. Voir layout ci-dessus.
   map-comment "Massif du Criou, Samoëns, 74, France"
@@ -247,6 +248,11 @@ layout my_layout-coupe
   # Dessin ou pas du cheminement topo
   #symbol-hide point station        
   #debug scrap-names
+  #  color map-fg scraps
+  #  color-legend off
+	color map-fg altitude
+	color-legend smooth
+	symbol-hide point rope
   #debug station-names
   symbol-hide line survey
   
@@ -303,9 +309,9 @@ select MC-CD11-coupe-tot@CD11
 # Export des fichiers pdf, plan et coupe. 
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
  export map -proj plan -fmt pdf -o Outputs/CD11-2023-plan.pdf -layout my_layout
- export map -proj plan -fmt pdf -o Outputs/CD11-2023-plan-continuations.pdf -layout my_layout-continuations
+ #export map -proj plan -fmt pdf -o Outputs/CD11-2023-plan-continuations.pdf -layout my_layout-continuations
  export map -projection extended -fmt pdf -layout my_layout-coupe -o Outputs/CD11-2023-coupe.pdf
- #export map -projection extended -fmt pdf -layout my_layout-coupe-continuations -o Outputs/CD11-2022-coupe-continuations.pdf
+ #export map -projection extended -fmt pdf -layout my_layout-coupe-continuations -o Outputs/CD11-coupe-continuations.pdf
 #export atlas -o Outputs/CD11-atlas.pdf -layout atlas_layout
 
 # Export du fichier 3d pour Loch
