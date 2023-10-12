@@ -5,8 +5,8 @@ Overview
 --------
 
 Ce dépôt contient les données topographiques et les dessins associés des cavités du massif du Criou à Samoëns (74, France).
-Cela concerne principalement le système du gouffre Mirolda et du réseau Lucien Bouclier.
-Elles ont été majoritairement produites par les spéléologues du collectif Criou 2022-2023 et le club des URSUS (69).
+Cela concerne le système du gouffre Mirolda et du réseau Lucien Bouclier.
+Elles ont été majoritairement produites par les URSUS et les spéléologues de l'Interclub Criou 2022.
 Ce dépôt est mis à jour à chaque fois qu'une nouvelle topographie est rajoutée au système décrit dans cette base de données.
 
 Si besoin, des templates pour Therion sont disponibles sur https://github.com/robertxa/Th-Config-Xav et un aide pour Therion est publiée sur le site internet du Club Vulcain (https://groupe-speleo-vulcain.com/explorations/techniques-topographiques/).

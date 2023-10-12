@@ -12,12 +12,12 @@ encoding  utf-8
 #   Le positionnement des galeries du fond sont donc assez approximatives.	
 #   Aussi, les LRUD paraissent complètement arbitraires, il ne faut probablement pas les prendre en considération
 					
-survey	AmontConfluence -title "Amont de la salle de la Confluence, version Tro de 2003"
+survey	AmontConfluence -title "Amont de la salle de la Confluence (TRO)"
 
 centerline
 
     #date 2022.09.13 
-     team "GS Cavernicoles"
+     team "Groupe Spéléo/Cavernicoles"
      team "URSUS"
 
     units length meters

@@ -5,7 +5,11 @@ encoding  utf-8
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
 map MP-CD11-plan-tot -title "Gouffre Mirolda - CD11"
-	MP-Enfoire@Yougo
+	MP-PuitsBelge@Puits-Belge
+    break
+    #
+    #break
+    MP-Enfoire@Yougo
     break
     MP-Yougo-Amonts@Yougo
     break
@@ -41,7 +45,9 @@ map MP-CD11-plan-tot -title "Gouffre Mirolda - CD11"
 endmap
 
 map MC-CD11-coupe-tot -title "Gouffre Mirolda - CD11"
-	MC-CD11-coupe-tot@CD11
+	MC-PuitsBelge@Puits-Belge
+    break
+    MC-CD11-coupe-tot@CD11
     break
     MC-Bivouac270-coupe-tot@Bivouac270
     break
