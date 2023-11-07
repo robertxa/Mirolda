@@ -56,6 +56,19 @@ endline
 
 point 977.0 -433.5 narrow-end
 
+point 1126.5 -249.5 section -scrap SS-FailleFossile-1
+
+line section
+  1258.5 -424.5
+  1259.5 -367.0
+  1167.5 -293.5
+endline
+
+line section
+  1255.0 -462.0
+  1256.0 -434.5
+endline
+
 line wall
   1858.0 -371.5
   1858.0 -371.5 1844.0 -395.0 1835.5 -402.5
@@ -171,6 +184,84 @@ point 1749.5 -405.0 station -name 2
 point 1812.0 -423.5 station -name 1
 
 point 1895.5 -421.0 station -name THETA
+
+endscrap
+
+
+
+scrap SS-FailleFossile-1 -projection none -station-names "" "@Theta-FailleFossile" -author 1987 "URSUS" -author 2023 "Xavier Robert" -scale [1307.5 -216.0 1307.5 -274.0 0.0 0.0 0 -2.8 m]
+
+line border -clip off
+  1305.25 -219.25
+  1270.0 -256.5
+endline
+
+line border -clip off
+  1329.75 -194.0
+  1307.0 -216.25
+endline
+
+line border -clip off
+  1345.5 -250.25
+  1287.25 -315.5
+endline
+
+line border -clip off
+  1340.75 -243.75
+  1282.5 -307.5
+endline
+
+line border -clip off
+  1335.5 -223.25
+  1317.0 -243.0
+endline
+
+line border -clip off
+  1298.75 -260.5
+  1276.5 -282.25
+endline
+
+line border -clip off
+  1303.75 -264.75
+  1277.75 -292.25
+endline
+
+line border -clip off
+  1340.5 -228.0
+  1312.25 -259.0
+endline
+
+line border -clip off
+  1296.5 -246.0
+  1272.0 -271.25
+endline
+
+line border -clip off
+  1332.0 -205.75
+  1311.5 -229.25
+endline
+
+line border -clip off
+  1322.75 -180.75
+  1258.25 -247.75
+endline
+
+line wall -close on
+  1305.5 -214.0
+  1305.5 -214.0 1306.0 -227.0 1305.0 -232.5
+  1304.0 -238.0 1305.75 -242.0 1302.25 -242.75
+  1298.75 -243.5 1297.25 -244.75 1297.5 -250.0
+  1297.75 -255.25 1297.5 -258.5 1301.0 -259.5
+  1304.5 -260.5 1305.5 -263.0 1306.0 -267.0
+  1306.5 -271.0 1307.25 -276.75 1307.25 -276.75
+  smooth off
+  1307.25 -276.75 1309.75 -268.0 1310.5 -263.5
+  1311.25 -259.0 1311.5 -251.25 1313.0 -249.25
+  1314.5 -247.25 1315.75 -245.25 1313.75 -240.25
+  1311.75 -235.25 1308.25 -228.0 1308.0 -224.25
+  1307.75 -220.5 1305.5 -214.0 1305.5 -214.0
+  smooth off
+endline
 
 endscrap
 
@@ -322,7 +413,7 @@ endline
 
 point 1606.0 -1417.0 water-flow -orientation 148.1
 
-point -207.0 -2423.0 air-draught -orientation 272.4 -subtype summer
+point -206.0 -2391.0 air-draught -orientation 272.4 -subtype summer
 
 point -365.0 -2270.0 dig
 
@@ -332,19 +423,25 @@ point -304.0 -2293.0 clay
 
 point -293.0 -2274.0 clay
 
-point 217.0 -1805.0 clay
+point 203.0 -1830.5 clay
+
+point 212.0 -1816.0 clay
+
+point 217.0 -1805.5 clay
 
 point 21.0 -2324.0 narrow-end
 
 point 65.0 -2224.0 narrow-end
 
-point 763.0 -1938.0 label -text "etr."
+point 1273.0 -1621.0 label -text "etr."
 
-point 302.0 -2116.0 label -text "etr."
+point 763.0 -1920.0 label -text "etr."
 
-point -292.0 -2214.0 label -text "colm."
+point 296.0 -2099.0 label -text "etr."
 
-point 217.0 -1734.0 label -text "colm."
+point -270.0 -2235.0 label -text "colm."
+
+point 218.5 -1761.5 label -text "colm."
 
 line wall
   1724.0 -856.0
