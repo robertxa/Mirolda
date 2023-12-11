@@ -83,7 +83,6 @@ layout my_layout
   # Voici une ligne pour specifier qu'il faut imprimer une grille
   # au dessous de la topo
   grid bottom
-
   # Une ligne pour specifier que la grille est 1000x1000x1000 metres
   # (Trois dimensions, oui, ça sert pour la coupe aussi)
   grid-size 250 250 250 m  
@@ -92,15 +91,12 @@ layout my_layout
   # la topo est transparente (on peut voir les galeries sousjacentes)
   # C'est on par defaut, donc, pas vraiment besoin de specifier
   transparency on
-  
   color map-fg [100 100 80]
-
   # ça marche seulement si transparency est "on" 90% blanc= 10% noir
   opacity 75
   
-  
   surface bottom
-  surface-opacity 100
+  surface-opacity 70
   
   # Auteur 
   doc-author "Xavier Robert"
@@ -132,7 +128,8 @@ layout my_layout
   legend on
 
   # Par defaut, la legende est de 14 cm de largeur
-  legend-width 21 cm
+  legend-width 25 cm
+  legend-columns 3
 
   # echelle graphique 100 m ampleur
   scale-bar 500 m
@@ -170,6 +167,9 @@ layout my_layout
   statistics copyright 2
   
   # Dessin ou pas du cheminement topo
+  	color map-fg altitude
+	color-legend smooth
+	symbol-hide point rope
 #  symbol-hide point station        
 #  debug scrap-names
 #  debug station-names
@@ -379,3 +379,4 @@ export continuation-list -o Outputs/ContinuationsCriou-2022.html
 export continuation-list -o Outputs/ContinuationsCriou-2022.kml
 export survey-list -location on -o Outputs/SurveysCriou2022.html
 export cave-list -location on -o Outputs/CavesCriou2022.html
+export cave-list -location on -o Outputs/Caves-Criou.txt
