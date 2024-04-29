@@ -11,7 +11,25 @@ map MP-Criou -title "Système du Criou"
 	#break
 	#MP-Tombroi@Tombroi
 	#break
-	#MP-PVieux@Pvieux	# Petit Vieux
+	#MP-PVielle@PVielle	# Petit Vieux
+	#break
+	#MP-PVieux@PVieux	# Petit Vieux
+	#break
+	#MP-Babet@Babet
+	#break
+	#MP-125aPic@125aPic
+	#break
+	#MP-CE10@CE10
+	#break
+	#MP-U6@U6
+	#break
+	#MP-F30@F30
+	#break
+	#MP-Frigo@Frigo
+	#break
+	#MP-Innomable@Innomable
+	#break
+	#MP-NouveauNe@NouveauNe
 	break
 	MP-FC231-plan@FC231
 	break
