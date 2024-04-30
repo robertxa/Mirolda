@@ -1,13 +1,12 @@
 encoding  utf-8
 
-# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
 survey CE10 -title "Gouffre CE10"
 	# Pour importer les différentes données de différents fichiers topos : 
 	input Data/CE10.th
-	input Data/E71/E71-tot.th
 	
 	# Import du dessin en plan
 	#input Data/CE10.th2
