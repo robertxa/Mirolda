@@ -16,8 +16,8 @@ map MP-Criou -title "Système du Criou"
 	#MP-PVieux@PVieux	# Petit Vieux
 	#break
 	#MP-Babet@Babet
-	#break
-	#MP-125aPic@125aPic
+	break
+	MP-F40@F40
 	#break
 	#MP-CE10@CE10
 	#break

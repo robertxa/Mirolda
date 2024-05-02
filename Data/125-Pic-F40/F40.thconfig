@@ -111,10 +111,10 @@ layout my_layout
   # Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
   # Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
   # ou une autre combination...
-  map-header 0 0 nw
+  map-header 110 100 nw
 
   # arrière plan de la manchette
-  map-header-bg on
+  map-header-bg off
   
   # Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
   # sur la topo. Si l'on veut pour tous les symboles, utilisés ou pas, il faut indiquer "all".
@@ -122,7 +122,7 @@ layout my_layout
   legend off
 
   # Par défaut, la légende est de 14 cm de largeur
-  legend-width 21 cm
+  legend-width 14 cm
 
   # Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
   scale-bar 100 m
@@ -142,8 +142,8 @@ layout my_layout
   # Dessin ou pas du cheminement topo
   #symbol-hide point station        
   #debug scrap-names
-  debug station-names
-  #symbol-hide line survey
+  #debug station-names
+  symbol-hide line survey
 
   layers on
 
@@ -170,7 +170,7 @@ layout my_layout
 
 
 
-layout atlas_layout
+layout layout-coupe
 	
 	# Call the config settings (Layout config inside the config.thc file)
 	copy drawingconfig
@@ -205,16 +205,16 @@ layout atlas_layout
   doc-title "F40 coupe développée - 1:1000"
 
   # Position de la manchette. Voir layout ci-dessus.
-  #map-header 0 0 s
+  map-header 100 100 nw
 
   # arrière plan de la manchette
-  map-header-bg on
+  map-header-bg off
   
   # Légende. Voir layout ci-dessus.
-  legend on
+  legend off
 
   # Par defaut, la legende est de 14 cm de largeur
-  legend-width 21 cm
+  legend-width 14 cm
 
   # echelle graphique 100 m ampleur
   scale-bar 100 m
@@ -225,7 +225,7 @@ layout atlas_layout
  
   # Afficher les statistiques d'explo/topo par équipe/nom.
   statistics explo-length off
-  statistics topo-length on
+  statistics topo-length off
   
   # Afficher un copyright
   statistics copyright 2
@@ -233,8 +233,8 @@ layout atlas_layout
   # Dessin ou pas du cheminement topo
   #symbol-hide point station        
   #debug scrap-names
-  debug station-names
-  #symbol-hide line survey
+  #debug station-names
+  symbol-hide line survey
   
   layers on
                 
@@ -260,17 +260,17 @@ layout atlas_layout
 # 3-EXPORT
 
 # Export des xvi pour le dessin si besoin
-export map -fmt xvi -layout xviexport -o Data/F40-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/F40-coupe.xvi
+#export map -fmt xvi -layout xviexport -o Data/F40-map.xvi
+#export map -proj extended -layout xviexport -fmt xvi -o Data/F40-coupe.xvi
 
 # Selection des Maps à exporter
-select MP-F40-plan-tot
-select MC-F40-coupe-tot
+select MP-F40@F40
+select MC-F40@F40
 
 # Export des fichiers pdf, plan et coupe. 
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
  export map -proj plan -fmt pdf -o Outputs/F40-plan.pdf -layout my_layout
- export map -projection extended -fmt pdf -layout my_layout -o Outputs/F40-coupe.pdf
+ export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/F40-coupe.pdf
 #export atlas -o Outputs/Criou-atlas.pdf -layout atlas_layout
 
 # Export du fichier 3d pour Loch
