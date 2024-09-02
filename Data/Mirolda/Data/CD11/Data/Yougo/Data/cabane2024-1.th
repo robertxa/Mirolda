@@ -18,8 +18,11 @@ survey cabane2024-1 -title "Affluent à l'amont de la Cabane (2024)"
     units compass clino degrees
     data normal from to length compass clino
     extend left
-  # PTRAP202401 PTR Marqué 2024 01 Alex
-    PTRAP202401 1 14.30 200.9 -28.8
+    
+    flags duplicate
+    PTRAP202401 1 14.30 200.9 -28.8 # PTRAP202401 PTR Marqué 2024 01 Alex
+    flags not duplicate
+
     # extend auto
     PTRAP202401 . 2.17 118.8 1.9
     PTRAP202401 . 4.02 177.9 -6.1

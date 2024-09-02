@@ -23,6 +23,8 @@ survey CD11 -title "Gouffre Mirolda - CD11"
 		equate PTRYOLRAP04@Yougo.Yougo PTRYOLRAP04@Yougo-Aval.Yougo-Aval
 		join SP-Yougo-Aval-2@Yougo-Aval SP-Yougo-2@Yougo
 		join SC-Yougo-Aval-01@Yougo-Aval SC-Yougo-1@Yougo
+
+		equate PTRYOEPAP02@cd11_cabanne_aval_suite.Yougo PTRYOEPAP02@Yougo-Aval.Yougo-Aval
 	
 	# Galerie Hasselblad
 	input Data/Hasselblad/Hasselblad-tot.th
@@ -51,6 +53,7 @@ survey CD11 -title "Gouffre Mirolda - CD11"
 	# Galerie de l'Ardèche
 	input Data/Ardeche/Ardeche-tot.th
 		equate PTRJMLDXR04@Ardeche.Ardeche	PTRJMLDXR04@majamonts2023.Amont-Majestueuse
+		equate PTRIXR1@ArdecheX.Ardeche PTRIXR1@20220913MiroldaXR1.Confluence
 
 	input Data/Puits-Belge/Puits-Belge-tot.th
 		equate 941@Puits-Belge.Puits-Belge 941@Amont-Majestueuse.Amont-Majestueuse

@@ -21,6 +21,8 @@ survey Yougo -title "Gouffre Mirolda - Réseau des Yougoslaves"
 		equate PTRYOLRAP01@cabane2023-2 PTRYOLRAP02@Yougo
 	input Data/cabane2024-1.th
 	   equate PTRJCXRCA01@cabane2024-1 PTRJCXRCA01@cabane2023
+	input Data/cd11_cabanne_aval_suite.th
+		equate PTRAP202401@cd11_cabanne_aval_suite PTRAP202401@cabane2024-1
 	
 	input Data/MIROLDA_CHAP_YOUGOSLAVE_29-08-23.th
 		equate PTRYOLRAP06@MIROLDA_CHAP_YOUGOSLAVE_29-08-23 2.8@Yougo
