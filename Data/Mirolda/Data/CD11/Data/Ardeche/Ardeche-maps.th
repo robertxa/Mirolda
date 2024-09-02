@@ -13,6 +13,8 @@ endmap
 
 map MC-Ardeche-tot -title "Gouffre Mirolda - Réseau de l'Ardèche"
 #	SC-Ardeche-1
+	SC-ArdecheX-3
+	break
 	SC-ArdecheX-2
 	break
 	SC-ArdecheX-1
