@@ -151,7 +151,7 @@ layout my_layout
 	color map-fg altitude
 	color-legend smooth
 	symbol-hide point rope
-   #symbol-hide line survey
+   symbol-hide line survey
 
   #debug all
 

@@ -10,19 +10,20 @@ survey Ardeche -title "Gouffre Mirolda - Réseau de l'Ardèche"
 	input Data/Ardeche.th
 	input Data/Ardeche_300824.th	# A RENOMMER AVEC LE FICHIER FINAL DE CHARLOTTE
 		equate 0@Ardeche2024-2 PTRA32@Ardeche
+	# Jonction avec l'aval de la salle de la Confluence
 	input Data/ArdecheX.th
 		equate 0@ArdecheX 22@Ardeche2024-2
 	#	equate 733@VieuxTRO PTRYOLRAP04@Ardeche
 		#equate 64@CD11-Affluents 6@Ardeche
 	
 	# Import du dessin en plan
-	#input Data/Ardeche2022.th2
+	input Data/ArdecheX.th2
 
 	# Import du dessin en coupe
-	#input Data/Ardeche-coupe.th2
+	input Data/ArdecheX-coupe.th2
 
 	# Import des maps
-	#input Ardeche-maps.th
+	input Ardeche-maps.th
  
  endsurvey
  

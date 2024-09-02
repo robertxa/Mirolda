@@ -1,5 +1,9 @@
 # 2024.09.02 created by TopoDroid v 5.1.40
 
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
 survey cd11_cabanne_aval_suite -title "cd11 cabanne aval suite"
 
   centerline

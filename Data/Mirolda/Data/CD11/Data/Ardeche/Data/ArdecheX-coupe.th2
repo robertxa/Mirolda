@@ -1,0 +1,121 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 3671.309 2647.6864
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {669.45 1 1.0} {2128.27 PTRJMLDXR04@Ardeche.Ardeche} Ardeche-coupe.xvi 0 {}
+
+
+
+scrap SC-ArdecheX-1 -projection extended -station-names "" "@ArdecheX" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1860.2844 -128.0 0.0 0.0 50.50242376 0.0 m]
+
+line water-flow
+  647.0 683.5
+  647.0 683.5 590.5 562.5 588.0 553.0
+  585.5 543.5 556.5 471.0 551.5 462.0
+  546.5 453.0 545.5 441.5 539.5 441.0
+  533.5 440.5 528.5 434.5 527.0 429.0
+  525.5 423.5 519.5 419.0 519.5 419.0
+  smooth off
+endline
+
+point 628.0 565.5 height -value [+32 m]
+
+line wall -subtype invisible
+  658.0 687.5
+  658.0 687.5 593.5 703.0 583.0 697.5
+endline
+
+line wall
+  518.5 412.5
+  518.5 412.5 529.0 419.5 529.0 427.0
+  529.0 434.5 531.5 436.0 538.5 436.5
+  545.5 437.0 545.5 444.5 550.5 447.0
+  555.5 449.5 555.0 452.5 558.5 462.5
+  562.0 472.5 589.0 547.0 591.0 556.0
+  593.0 565.0 658.0 687.5 658.0 687.5
+  smooth off
+endline
+
+line wall
+  583.0 697.5
+  583.0 697.5 583.0 586.5 584.0 575.0
+  585.0 563.5 577.0 544.0 568.0 540.0
+  559.0 536.0 557.0 503.5 553.5 496.0
+  550.0 488.5 551.5 491.0 546.0 484.5
+  540.5 478.0 536.5 451.0 536.0 448.5
+  535.5 446.0 520.5 440.5 520.5 440.5
+  smooth off
+endline
+
+point 523.1000000000001 429.61 station -name 33
+
+point 549.7600000000002 450.78999999999996 station -name 34
+
+point 629.9200000000001 684.88 station -name 35
+
+endscrap
+
+
+
+scrap SC-ArdecheX-2 -projection extended -station-names "" "@ArdecheX" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1860.2844 -128.0 0.0 0.0 50.50242376 0.0 m]
+
+line wall
+  887.0 548.5
+  887.0 548.5 808.0 541.0 781.5 537.5
+  755.0 534.0 617.5 512.0 595.5 508.0
+endline
+
+area u:galerie
+  l24-511-421
+endarea
+
+line border -id l24-511-421 -close on
+  520.5 440.5
+  520.5 440.5 509.0 426.5 511.0 420.0
+  513.0 413.5 518.5 412.5 518.5 412.5
+  smooth off
+  518.5 412.5 531.0 428.0 528.5 432.5
+  526.0 437.0 520.5 440.5 520.5 440.5
+  smooth off
+endline
+
+line wall
+  623.0 425.5
+  623.0 425.5 846.5 488.0 863.0 488.5
+  879.5 489.0 887.0 492.0 891.0 492.0
+endline
+
+line wall -subtype debris
+  447.5 423.5
+  447.5 423.5 463.0 407.5 471.5 406.0
+  480.0 404.5 505.5 407.0 513.5 408.0
+  521.5 409.0 533.0 417.5 533.0 425.0
+  533.0 432.5 531.5 431.5 542.0 433.0
+  552.5 434.5 566.0 452.0 572.0 452.0
+  578.0 452.0 588.0 451.0 588.0 440.5
+  588.0 430.0 594.0 426.0 600.5 424.5
+  607.0 423.0 623.0 425.5 623.0 425.5
+  smooth off
+endline
+
+line wall -subtype debris
+  595.5 508.0
+  573.5 504.0 559.5 510.0 544.0 495.0
+  528.5 480.0 538.5 459.0 525.0 457.0
+  511.5 455.0 493.5 451.5 485.0 453.0
+  476.5 454.5 462.5 459.5 462.5 459.5
+  smooth off
+endline
+
+point 885.2600000000001 514.72 station -name 29
+
+point 577.3800000000001 464.88 station -name 30
+
+point 525.4200000000001 435.35 station -name 31
+
+point 504.3700000000001 416.61 station -name 32
+
+point 410.1600000000001 446.61 station -name PTRIXR1
+
+endscrap
+
+

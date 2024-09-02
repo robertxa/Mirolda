@@ -1,5 +1,9 @@
 # 2024.09.02 created by TopoDroid v 6.2.44
 
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
 survey ArdecheX -title "ArdecheX"
 
   centerline
@@ -117,8 +121,8 @@ survey ArdecheX -title "ArdecheX"
     5 . 5.23 208.1 -5.0
     5 . 4.53 206.8 49.1
     extend right
-  # piscoulis en rdv, dpart
-    5 6 19.37 342.7 70.1
+  
+    5 6 19.37 342.7 70.1  # piscoulis en rive droite, dpart
     extend left
     5 7 6.89 202.9 -8.2
     # extend auto
@@ -129,8 +133,8 @@ survey ArdecheX -title "ArdecheX"
     7 . 1.04 293.4 -6.9
     7 . 0.90 234.8 6.8
     extend vertical
-  # sommet p8, s, pulse s
-    7 8 1.89 278.4 16.2
+  
+    7 8 1.89 278.4 16.2 # sommet p8, s, pulse s
     # extend auto
     8 . 1.30 180.0 -3.2
     8 . 1.02 235.5 10.5
@@ -141,8 +145,8 @@ survey ArdecheX -title "ArdecheX"
     8 . 4.59 293.1 -78.2
     8 . 7.57 257.2 -44.5
     extend left
-  # bloc, base p8
-    8 9 7.22 235.3 -79.3
+  
+    8 9 7.22 235.3 -79.3  # bloc, base p8
     # extend auto
     9 . 0.82 26.9 -82.4
     9 . 3.56 198.1 -26.4
@@ -154,8 +158,8 @@ survey ArdecheX -title "ArdecheX"
     9 . 1.50 70.7 9.4
     9 . 15.03 199.9 83.1
     extend left
-  # Sommet r2, eau ed
-    9 10 3.92 227.0 0.0
+  
+    9 10 3.92 227.0 0.0 # Sommet r2, eau rive droite
     # extend auto
     10 . 1.82 104.8 -8.6
     10 . 3.27 74.8 -3.8
@@ -185,8 +189,8 @@ survey ArdecheX -title "ArdecheX"
     11 . 1.56 25.0 15.3
     11 . 3.18 355.3 25.0
     extend left
-  # plein de ressauts, r2 r2 r2 r1
-    11 12 21.09 160.6 -37.7
+  
+    11 12 21.09 160.6 -37.7 # plein de ressauts, r2 r2 r2 r1
     # extend auto
     12 . 2.64 241.4 -76.2
     12 . 2.58 148.9 -61.4
@@ -215,8 +219,8 @@ survey ArdecheX -title "ArdecheX"
     12 . 6.47 206.9 -23.5
     12 . 7.18 195.8 -16.5
     extend right
-  # arrivée eau perdue
-    12 13 7.15 73.3 27.9
+  
+    12 13 7.15 73.3 27.9  # arrivée eau perdue
     extend left
     12 14 10.80 199.6 -18.8
     # extend auto
@@ -235,8 +239,8 @@ survey ArdecheX -title "ArdecheX"
     14 . 3.44 7.3 15.8
     14 . 1.72 6.0 -48.1
     extend left
-  # base r3
-    14 15 3.55 154.0 -36.8
+  
+    14 15 3.55 154.0 -36.8  # base R3
     # extend auto
     15 . 1.99 60.6 -5.5
     15 . 2.50 66.6 -71.4
@@ -323,8 +327,8 @@ survey ArdecheX -title "ArdecheX"
     20 . 8.76 156.9 -35.8
     20 . 1.96 203.7 -0.4
     extend left
-  # blocs sommet r
-    20 21 3.34 200.6 0.9
+  
+    20 21 3.34 200.6 0.9  # blocs sommet ressaut
     # extend auto
     21 . 0.77 116.6 -1.6
     21 . 5.24 163.6 -48.9
@@ -336,8 +340,8 @@ survey ArdecheX -title "ArdecheX"
     21 . 10.29 178.2 23.0
     21 . 2.42 98.7 -22.4
     extend left
-  # blocs, sommet r4
-    21 22 12.53 165.0 -30.8
+  
+    21 22 12.53 165.0 -30.8 # blocs, sommet R4
     # extend auto
     22 . 1.52 299.0 16.0
     22 . 2.28 343.2 -15.7
@@ -377,8 +381,8 @@ survey ArdecheX -title "ArdecheX"
     24 . 19.05 132.8 86.1
     24 . 10.73 143.0 50.3
     extend left
-  # e5 mc, sur af, puis s, s af
-    24 25 9.61 149.0 34.9
+  
+    24 25 9.61 149.0 34.9 # e5 mc, sur af, puis s, s af
     # extend auto
     25 . 1.84 44.4 -80.2
     25 . 2.94 288.5 -55.6
@@ -397,8 +401,8 @@ survey ArdecheX -title "ArdecheX"
     25 . 10.51 317.8 40.9
     25 . 8.79 334.7 34.3
     extend left
-  # sommet puits, point E
-    25 E 2.27 197.7 -31.3
+  
+    25 E 2.27 197.7 -31.3 # sommet puits, point E
     # extend auto
     E . 1.43 317.9 20.4
     E . 3.70 71.1 -66.1
@@ -409,8 +413,8 @@ survey ArdecheX -title "ArdecheX"
     E . 1.42 273.9 -9.0
     E . 3.06 240.9 -33.7
     extend right
-  # base p13, frac
-    E 27 13.78 295.8 -74.0
+  
+    E 27 13.78 295.8 -74.0  # base p13, frac
     # extend auto
     27 . 0.97 126.5 -83.6
     27 . 1.38 156.4 1.4
@@ -432,11 +436,10 @@ survey ArdecheX -title "ArdecheX"
     27 . 10.01 241.4 36.0
     27 . 12.22 240.9 20.6
     extend right
-  # etr ?
-    27 28 8.69 60.9 37.3
+  
+    27 28 8.69 60.9 37.3  # etr ?
     extend left
-  # mi chemin, arr eau rdv, e3, sommet p3 puis r3
-    27 29 15.13 243.3 -6.0
+    27 29 15.13 243.3 -6.0  # mi chemin, arr eau rdv, e3, sommet p3 puis r3
     # extend auto
     29 . 0.86 185.9 17.6
     29 . 0.85 287.8 -21.9
@@ -451,9 +454,9 @@ survey ArdecheX -title "ArdecheX"
     29 . 3.54 277.1 -65.1
     29 . 4.19 243.5 -54.3
     29 . 4.00 251.5 81.5
-    extend left
-  # blocs, basectremie
-    29 30 39.61 239.2 -9.2
+    #extend left
+    extend ignore 29 30
+    29 30 39.61 239.2 -9.2  # blocs, base de la trémie de la Confluence
     # extend auto
     30 . 1.47 338.9 -0.2
     30 . 4.21 351.6 -53.1
@@ -465,7 +468,8 @@ survey ArdecheX -title "ArdecheX"
     30 . 2.67 280.3 -19.1
     30 . 2.05 258.3 -44.7
     30 . 3.33 264.6 -33.2
-    extend vertical
+    #extend vertical
+    extend left
     30 31 7.59 263.4 -29.6
     # extend auto
     31 . 1.15 330.7 -7.2
@@ -478,8 +482,8 @@ survey ArdecheX -title "ArdecheX"
     31 . 1.79 242.3 28.3
     31 . 4.92 220.2 23.2
     extend left
-  # départ, bloc
-    31 32 3.58 258.4 -41.7
+  
+    31 32 3.58 258.4 -41.7  # départ, bloc
     # extend auto
     32 . 2.14 163.2 4.6
     32 . 5.18 196.1 69.2

@@ -25,6 +25,7 @@ survey CD11 -title "Gouffre Mirolda - CD11"
 		join SC-Yougo-Aval-01@Yougo-Aval SC-Yougo-1@Yougo
 
 		equate PTRYOEPAP02@cd11_cabanne_aval_suite.Yougo PTRYOEPAP02@Yougo-Aval.Yougo-Aval
+		join SP-Conf-1@Confluence SP-ArdecheX-1@Ardeche
 	
 	# Galerie Hasselblad
 	input Data/Hasselblad/Hasselblad-tot.th
@@ -61,9 +62,10 @@ survey CD11 -title "Gouffre Mirolda - CD11"
 		# Vieux TRO
 		#equate 773@Amont-Majestueuse.Amont-Majestueuse PTRMAXR04@20220912miroldaXR1.Bivouac270
 
+	### Données dupliquées, pas la peine de les garder dans la synthèse
 	# Amont de la salle de la Confluence:
-	input Data/Amont-Confluence/AmontConfluence-tot.th
-		equate 181@AmontConfluence.AmontConfluence 33@20220913MiroldaXR1.Confluence
+	#input Data/Amont-Confluence/AmontConfluence-tot.th
+	#	equate 181@AmontConfluence.AmontConfluence 33@20220913MiroldaXR1.Confluence
 	
 	# Départ Bivouac -600
 	input Data/Bivouac-600/Bivouac-600-tot.th
