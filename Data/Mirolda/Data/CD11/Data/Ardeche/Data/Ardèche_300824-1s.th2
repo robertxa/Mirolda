@@ -24,6 +24,7 @@ endline
 
 line wall
   12.45 -37.65
+  altitude .
   16.86 -38.23 24.84 -36.19 27.9 -39.75
   smooth off
 endline
@@ -108,6 +109,7 @@ line wall -reverse on
   75.46 -71.02
   68.48 -71.89 62.78 -71.49 58.27 -65.59
   smooth off
+  altitude .
 endline
 
 line rock-border -close on
@@ -181,6 +183,7 @@ line wall -reverse on
   143.13 -100.84
   127.91 -102.05 116.24 -93.45 101.13 -93.45
   smooth off
+  altitude .
 endline
 
 line wall -reverse on
@@ -285,7 +288,15 @@ line flowstone
   smooth off
 endline
 
-point 226.0 -144.0 height -value [-10 m]
+line rock-border -close on
+  228.75 -105.75
+  223.0 -111.0
+  228.5 -115.5
+  234.75 -111.0
+  228.75 -105.75
+endline
+
+point 245.25 -111.0 height -value [-10 m]
 
 point 264.75 -97.75 height -value [+15 m]
 
@@ -425,9 +436,32 @@ line wall -reverse on
   smooth off
 endline
 
+line wall
+  221.0 -140.75
+  221.0 -140.75 217.0 -133.75 217.0 -132.0
+endline
+
+line wall
+  213.36 -132.91
+  213.36 -132.91 215.25 -142.0 216.25 -143.25
+endline
+
+line water-flow
+  214.75 -132.5
+  214.75 -132.5 219.5 -147.75 225.25 -150.0
+  231.0 -152.25 246.25 -154.25 246.25 -154.25
+  smooth off
+endline
+
+line rope
+  230.31 -120.31
+  219.69 -121.9
+  219.5 -128.25
+endline
+
 line wall -reverse on
   228.26 -129.42
-  223.44 -122.23 219.65 -131.73 213.36 -132.91
+  223.44 -122.23 223.29 -130.82 217.0 -132.0
   smooth off
 endline
 

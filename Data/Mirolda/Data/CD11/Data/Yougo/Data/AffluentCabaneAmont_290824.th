@@ -15,28 +15,32 @@ survey AffluentCabaneAmont_290824 -title "AffluentCabaneAmont 290824"
 
   centerline
     date 2024.08.29 
-    # team Charlotte Honiat, Nicolas Faure, Augustin Madeleine 
+      team "Charlotte Honiat"
+      team "Nicolas Faure"
+      team "Augustin Madeleine"
+
     units length meters
     units compass clino degrees
-    data normal from to length compass clino
+    
+    data normal from to length compass backclino
     extend left
-    0 1 4.44 101.4 -63.1
+    PTRJCXRCA01 1 4.44 101.4 -63.1
     # extend auto
-    0 . 6.82 138.9 -44.8
-    0 . 5.51 112.2 -51.6
-    0 . 7.29 193.5 -24.6
-    0 . 14.71 197.2 -54.2
-    0 . 19.26 160.4 -75.7
-    0 . 18.29 304.6 -90.0
-    0 . 2.02 340.2 -15.3
-    0 . 0.62 267.5 10.8
-    0 . 3.50 347.9 7.2
-    0 . 0.94 333.2 8.6
-    0 . 0.84 1.5 9.9
-    0 . 0.92 231.3 58.0
-    0 . 3.03 343.5 50.6
+    PTRJCXRCA01 . 6.82 138.9 -44.8
+    PTRJCXRCA01 . 5.51 112.2 -51.6
+    PTRJCXRCA01 . 7.29 193.5 -24.6
+    PTRJCXRCA01 . 14.71 197.2 -54.2
+    PTRJCXRCA01 . 19.26 160.4 -75.7
+    PTRJCXRCA01 . 18.29 304.6 -90.0
+    PTRJCXRCA01 . 2.02 340.2 -15.3
+    PTRJCXRCA01 . 0.62 267.5 10.8
+    PTRJCXRCA01 . 3.50 347.9 7.2
+    PTRJCXRCA01 . 0.94 333.2 8.6
+    PTRJCXRCA01 . 0.84 1.5 9.9
+    PTRJCXRCA01 . 0.92 231.3 58.0
+    PTRJCXRCA01 . 3.03 343.5 50.6
     extend left
-    2 0 3.01 171.0 -5.9
+    2 PTRJCXRCA01 3.01 171.0 -5.9
     # extend auto
     2 . 3.22 45.7 81.5
     2 . 0.60 293.4 12.9
@@ -87,9 +91,10 @@ survey AffluentCabaneAmont_290824 -title "AffluentCabaneAmont 290824"
     extend right
     8 9 3.38 340.3 -22.0
     9 10 2.76 2.0 10.4
+
     units left right up down meters
     data dimensions station left right up down
-    0 3.19 8.56 8.56 18.66
+    PTRJCXRCA01 3.19 8.56 8.56 18.66
     2 0.90 0.58 0.58 14.69
     3 1.09 0.11 0.11 0.16
     6 0.00 0.00 0.00 0.00
