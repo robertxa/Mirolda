@@ -18,13 +18,21 @@ survey Base-70_290824 -title "Base-70 290824"
 
   centerline
     date 2024.08.29 
-    # team Charlotte Honiat, Nicolas Faure, Augustin Madeleine 
+      team "Charlotte Honiat"
+      team "Nicolas Faure"
+      team "Augustin Madeleine"
+
     units length meters
     units compass clino degrees
+
     data normal from to length compass clino
     extend left
-    0 1 6.05 189.9 -9.6
-    1 2 7.56 195.1 19.0
+    
+    flags duplicate
+      0 1 6.05 189.9 -9.6
+      1 2 7.56 195.1 19.0
+    flags not duplicate
+
     # extend auto
     2 . 3.42 197.4 -63.8
     2 . 1.40 335.3 12.7
@@ -160,6 +168,7 @@ survey Base-70_290824 -title "Base-70 290824"
     15 . 5.44 261.8 85.2
     extend right
     15 16 4.64 151.6 -8.6
+
     units left right up down meters
     data dimensions station left right up down
     11 0.23 2.03 2.03 0.26
