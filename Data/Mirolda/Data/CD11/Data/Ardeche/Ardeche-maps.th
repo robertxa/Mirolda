@@ -6,6 +6,9 @@ encoding  utf-8
 
 map MP-Ardeche-tot -title "Gouffre Mirolda - Réseau de l'Ardèche"
 #	SP-Ardeche-1
+	
+	SP-Ardeche_300824-1
+	break
 	SP-ArdecheX-2
 	break
 	SP-ArdecheX-1
@@ -13,6 +16,8 @@ endmap
 
 map MC-Ardeche-tot -title "Gouffre Mirolda - Réseau de l'Ardèche"
 #	SC-Ardeche-1
+	Ardeche_300824-1s
+	break
 	SC-ArdecheX-3
 	break
 	SC-ArdecheX-2

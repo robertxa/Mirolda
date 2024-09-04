@@ -1,0 +1,800 @@
+encoding utf-8
+##XTHERION## xth_me_area_adjust -144.5 -167.0 174.6 156.4
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {-70.73 1 1.0} {-93.22 0} Base-70_290824-1s.xvi 0 {}
+
+# 2024.09.03 created by TopoDroid v. 6.2.85
+
+scrap Base-70_290824-1s -projection extended -scale [0 0 2.6247 0 0 0 1 0 m]
+
+line wall
+  -6.42 -17.33
+  -5.80 -16.52
+  -5.24 -15.76
+  -4.77 -14.93
+  -4.29 -14.17
+  -3.74 -13.46
+  -3.18 -12.78
+  -2.43 -12.07
+  -1.71 -11.59
+  -1.04 -10.95
+  -0.36 -10.43
+  0.46 -10.03
+endline
+
+point -0.96 -9.10 clay
+
+point -6.13 -14.35 clay
+
+point -4.02 -11.26 blocks
+
+point 12.65 -15.66 blocks
+
+line wall
+  0.84 -9.80
+  1.85 -9.61
+  2.84 -9.57
+  3.75 -9.65
+  4.44 -10.29
+  5.13 -10.99
+  6.08 -11.37
+  7.07 -11.68
+  7.85 -12.19
+  8.51 -12.88
+  8.98 -13.70
+endline
+
+line wall -reverse on
+  23.81 -10.95
+  23.20 -10.76
+  22.52 -10.61
+  21.79 -10.42
+  21.08 -10.22
+  20.48 -10.02
+  19.86 -9.80
+  19.32 -9.54
+  18.70 -9.40
+  18.13 -9.31
+  17.53 -9.31
+  17.00 -9.43
+  16.92 -10.04
+  16.60 -10.61
+  16.49 -11.20
+  16.21 -11.77
+  15.92 -12.31
+  15.81 -12.89
+  15.75 -13.47
+endline
+
+line wall
+  -13.14 -9.86
+  -13.57 -10.47
+  -13.98 -11.07
+  -14.42 -11.78
+  -14.79 -12.39
+  -15.09 -13.06
+  -15.33 -13.75
+  -15.53 -14.47
+  -15.63 -15.21
+  -15.70 -16.05
+  -15.70 -16.82
+  -15.70 -17.59
+endline
+
+line wall
+  -16.91 -28.34
+  -16.63 -27.88
+  -16.28 -27.37
+  -15.85 -26.73
+  -15.38 -26.04
+  -14.80 -25.27
+  -14.13 -24.57
+  -13.56 -23.86
+  -13.02 -23.14
+  -12.58 -22.54
+  -12.07 -21.93
+  -11.55 -21.34
+  -10.99 -20.75
+  -10.53 -20.28
+  -9.58 -19.61
+  -9.14 -19.30
+  -8.65 -18.97
+  -8.17 -18.63
+  -7.73 -18.30
+  -7.29 -17.94
+  -6.83 -17.56
+  -6.31 -17.29
+endline
+
+line wall
+  -20.94 -27.03
+  -20.82 -26.34
+  -20.47 -25.45
+  -20.03 -24.58
+  -19.77 -24.09
+  -19.39 -23.47
+  -18.95 -22.77
+  -18.46 -22.03
+  -17.98 -21.36
+  -17.44 -20.62
+  -17.02 -20.10
+  -16.64 -19.59
+  -16.30 -19.10
+  -15.97 -18.61
+  -15.73 -17.97
+endline
+
+line wall
+  -44.49 48.84
+  -37.75 37.68
+  -36.85 35.42
+  -35.67 33.22
+  -34.67 31.48
+  -33.76 29.68
+  -32.58 27.94
+  -31.13 26.22
+  -30.13 24.50
+  -28.76 22.77
+  -27.76 20.86
+  -26.84 19.03
+  -25.85 17.21
+  -25.02 15.29
+  -24.48 13.47
+  -23.75 11.66
+  -22.75 10.11
+  -22.11 8.33
+  -20.85 6.83
+  -19.02 6.12
+  -17.24 3.94
+  -15.98 3.97
+  -15.20 2.19
+  -15.20 0.20
+  -15.19 -2.49
+  -13.79 -3.26
+  -12.47 -4.53
+  -11.38 -6.08
+  -11.60 -8.03
+  -13.14 -9.86
+endline
+
+line wall
+  1.58 29.65
+  -0.60 30.17
+  -3.18 30.99
+  -5.39 31.73
+  -7.58 32.97
+  -9.85 34.53
+  -11.64 35.67
+  -13.31 37.13
+  -15.16 38.59
+  -16.95 40.05
+  -18.83 41.40
+  -20.20 43.07
+  -21.75 44.55
+  -23.42 46.30
+  -25.29 47.87
+  -27.38 49.34
+  -29.43 51.42
+  -31.14 51.52
+  -32.81 52.36
+endline
+
+point -42.03 56.35 continuation
+
+point -24.27 25.00 water-flow -orientation 169.00
+
+point -35.35 23.33 label -text "Trace ancienne escalade"
+
+line wall
+  12.54 -22.09
+  12.94 -22.95
+  14.07 -23.97
+  15.08 -23.88
+  16.16 -24.03
+  17.19 -24.22
+  18.21 -24.62
+  18.84 -25.49
+  19.15 -26.47
+  19.87 -27.24
+  20.61 -28.02
+  21.04 -29.00
+  21.34 -30.07
+  21.59 -31.08
+  21.88 -32.07
+  22.17 -33.09
+  22.47 -34.17
+  22.86 -35.19
+  23.04 -36.17
+  23.20 -37.15
+  23.21 -37.99
+endline
+
+line wall -reverse on
+  15.75 -13.47
+  17.08 -14.64
+  17.60 -15.82
+  18.66 -16.53
+  19.84 -16.95
+  20.91 -17.71
+  21.80 -18.59
+  22.27 -19.77
+  22.68 -21.01
+  23.80 -21.79
+  25.31 -22.08
+  26.80 -22.14
+  28.21 -22.20
+  29.46 -22.32
+  30.65 -22.61
+  31.59 -23.44
+  33.19 -25.22
+endline
+
+line wall
+  23.21 -37.99
+  23.57 -38.79
+  23.89 -39.72
+  24.21 -40.65
+  24.54 -41.70
+  24.82 -42.76
+  25.15 -44.16
+  25.31 -44.98
+  25.47 -45.78
+  25.63 -46.64
+  25.88 -48.02
+  26.12 -49.32
+  26.33 -50.62
+  26.49 -51.64
+  26.69 -52.65
+  26.93 -53.55
+  27.34 -54.44
+  27.98 -55.14
+  28.71 -55.62
+  29.56 -55.86
+  30.41 -56.07
+  31.34 -56.24
+  32.27 -56.32
+  33.28 -56.24
+  34.30 -55.96
+  36.55 -55.84
+endline
+
+line wall
+  57.51 -45.28
+  55.46 -45.10
+  53.57 -45.01
+  51.79 -45.19
+  49.84 -45.01
+  47.87 -43.71
+  46.44 -42.10
+  45.29 -40.32
+  44.48 -38.27
+  43.68 -36.48
+  42.70 -34.44
+  41.63 -32.65
+  40.21 -31.22
+  38.44 -30.15
+  36.47 -29.17
+  34.60 -28.19
+  33.17 -26.94
+  33.19 -25.22
+endline
+
+point 73.82 -59.69 continuation
+
+point 74.47 -64.34 label -text "Méandre étroit descendant"
+
+line wall -reverse on
+  57.87 -45.41
+  59.23 -45.41
+  60.67 -45.35
+  61.99 -45.29
+  63.59 -45.23
+  65.05 -45.23
+  66.72 -45.23
+  68.28 -45.17
+  69.78 -45.17
+  71.84 -45.11
+endline
+
+line wall
+  9.06 -13.87
+  9.70 -14.70
+  10.20 -15.78
+  10.54 -16.88
+  10.74 -17.96
+  11.03 -18.99
+  11.43 -20.03
+  11.97 -21.08
+  12.54 -22.09
+endline
+
+point 51.40 -11.79 label -text "Haut echelle"
+
+point -18.91 -27.57 narrow-end
+
+line wall
+  48.48 -9.00
+  45.09 -9.99
+  41.61 -10.24
+  38.12 -9.99
+  34.80 -9.25
+  31.65 -7.93
+  28.98 -5.77
+  26.57 -3.28
+  24.58 -0.38
+  22.76 2.68
+  21.26 6.01
+  19.94 9.24
+  18.20 12.48
+  15.72 15.47
+  13.48 18.04
+  11.15 20.87
+  8.82 23.68
+  6.33 26.27
+  1.58 29.65
+endline
+
+line wall
+  23.81 -10.95
+  25.24 -11.62
+  27.00 -12.56
+  28.85 -13.46
+  30.65 -14.56
+  32.61 -15.51
+  34.60 -15.99
+  36.82 -15.94
+  39.06 -15.75
+  41.02 -15.75
+  43.06 -15.47
+  45.11 -15.28
+  47.16 -15.18
+endline
+
+line wall -reverse on
+  60.41 -66.94
+  58.89 -66.75
+  57.77 -65.78
+  56.86 -64.64
+  56.11 -63.41
+  55.69 -62.04
+  54.45 -61.26
+  53.05 -60.70
+  51.57 -60.56
+  50.06 -60.28
+  49.11 -59.09
+  48.40 -57.71
+  47.22 -57.04
+  45.68 -57.04
+  44.12 -57.04
+  42.43 -57.18
+  40.89 -57.25
+  39.47 -56.91
+  37.93 -56.35
+  36.55 -55.84
+endline
+
+line wall
+  72.84 -66.53
+  71.56 -66.44
+  70.31 -66.50
+  69.02 -66.59
+  67.75 -66.68
+  66.52 -66.77
+  65.17 -66.82
+  63.91 -66.85
+  62.62 -66.85
+  61.35 -66.97
+  60.41 -66.94
+endline
+
+
+line u:splay -visibility off
+  16.90 -7.71
+  12.94 -15.76
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  19.66 -6.91
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  17.80 -7.16
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  16.33 -7.39
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  14.09 -6.96
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  12.46 -7.66
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  9.96 -8.51
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  15.16 -7.93
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  16.46 -7.79
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  -2.40 29.68
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  -11.89 16.00
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  -14.90 -2.34
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  9.28 -7.62
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  9.47 -8.33
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  4.75 -9.30
+endline
+line u:splay -visibility off
+  16.90 -7.71
+  9.93 -13.84
+endline
+line u:splay -visibility off
+  0.09 -6.77
+  0.22 -4.38
+endline
+line u:splay -visibility off
+  0.09 -6.77
+  -7.92 -17.07
+endline
+line u:splay -visibility off
+  0.09 -6.77
+  -11.73 -8.53
+endline
+line u:splay -visibility off
+  0.09 -6.77
+  -13.60 -11.06
+endline
+line u:splay -visibility off
+  0.09 -6.77
+  -15.67 -14.98
+endline
+line u:splay -visibility off
+  0.09 -6.77
+  -4.70 -3.96
+endline
+line u:splay -visibility off
+  0.09 -6.77
+  -0.17 -4.20
+endline
+line u:splay -visibility off
+  0.09 -6.77
+  -3.87 0.68
+endline
+line u:splay -visibility off
+  0.09 -6.77
+  -13.23 5.31
+endline
+line u:splay -visibility off
+  0.09 -6.77
+  5.86 -4.52
+endline
+line u:splay -visibility off
+  0.09 -6.77
+  20.33 -4.62
+endline
+line u:splay -visibility off
+  0.09 -6.77
+  2.35 -5.68
+endline
+line u:splay -visibility off
+  -13.57 -15.54
+  -7.38 -17.44
+endline
+line u:splay -visibility off
+  -13.57 -15.54
+  -12.08 -15.34
+endline
+line u:splay -visibility off
+  -7.34 -0.30
+  -6.60 3.71
+endline
+line u:splay -visibility off
+  -7.34 -0.30
+  -5.63 0.10
+endline
+line u:splay -visibility off
+  -7.34 -0.30
+  -1.90 -7.83
+endline
+line u:splay -visibility off
+  -7.34 -0.30
+  -14.55 -2.34
+endline
+line u:splay -visibility off
+  -7.34 -0.30
+  -5.50 5.83
+endline
+line u:splay -visibility off
+  -7.34 -0.30
+  -2.00 10.17
+endline
+line u:splay -visibility off
+  -18.29 12.76
+  -17.16 4.22
+endline
+line u:splay -visibility off
+  -18.29 12.76
+  -22.96 10.48
+endline
+line u:splay -visibility off
+  -18.29 12.76
+  -20.65 7.22
+endline
+line u:splay -visibility off
+  -18.29 12.76
+  -9.32 0.73
+endline
+line u:splay -visibility off
+  -18.29 12.76
+  -20.48 14.27
+endline
+line u:splay -visibility off
+  -18.29 12.76
+  -25.06 23.34
+endline
+line u:splay -visibility off
+  -18.29 12.76
+  -10.32 32.92
+endline
+line u:splay -visibility off
+  -18.29 12.76
+  -16.57 37.85
+endline
+line u:splay -visibility off
+  -18.29 12.76
+  -21.35 44.67
+endline
+line u:splay -visibility off
+  -18.29 12.76
+  -29.59 51.20
+endline
+line u:splay -visibility off
+  -18.29 12.76
+  -36.99 42.20
+endline
+line u:splay -visibility off
+  -18.29 12.76
+  -12.40 13.05
+endline
+line u:splay -visibility off
+  13.12 -15.75
+  15.19 -15.83
+endline
+line u:splay -visibility off
+  13.12 -15.75
+  14.56 -3.37
+endline
+line u:splay -visibility off
+  13.12 -15.75
+  13.75 -15.91
+endline
+line u:splay -visibility off
+  13.12 -15.75
+  17.66 -17.74
+endline
+line u:splay -visibility off
+  13.12 -15.75
+  19.20 -18.49
+endline
+line u:splay -visibility off
+  13.12 -15.75
+  15.26 -16.76
+endline
+line u:splay -visibility off
+  13.12 -15.75
+  15.79 -17.17
+endline
+line u:splay -visibility off
+  13.12 -15.75
+  18.10 -18.40
+endline
+line u:splay -visibility off
+  13.12 -15.75
+  14.13 -23.83
+endline
+line u:splay -visibility off
+  20.75 -24.91
+  15.54 -20.52
+endline
+line u:splay -visibility off
+  20.75 -24.91
+  20.03 -24.43
+endline
+line u:splay -visibility off
+  20.75 -24.91
+  18.72 -24.52
+endline
+line u:splay -visibility off
+  20.75 -24.91
+  20.18 -24.46
+endline
+line u:splay -visibility off
+  20.75 -24.91
+  22.63 -24.70
+endline
+line u:splay -visibility off
+  20.75 -24.91
+  27.33 -24.70
+endline
+line u:splay -visibility off
+  20.75 -24.91
+  32.04 -24.93
+endline
+line u:splay -visibility off
+  20.75 -24.91
+  26.76 -24.45
+endline
+line u:splay -visibility off
+  20.75 -24.91
+  23.50 -24.13
+endline
+line u:splay -visibility off
+  20.75 -24.91
+  19.02 -24.09
+endline
+line u:splay -visibility off
+  20.75 -24.91
+  19.93 -0.15
+endline
+line u:splay -visibility off
+  20.75 -24.91
+  22.56 -27.96
+endline
+line u:splay -visibility off
+  20.75 -24.91
+  22.67 -28.51
+endline
+line u:splay -visibility off
+  20.75 -24.91
+  24.43 -37.12
+endline
+line u:splay -visibility off
+  27.42 -24.70
+  28.08 -25.32
+endline
+line u:splay -visibility off
+  27.42 -24.70
+  31.79 -25.37
+endline
+line u:splay -visibility off
+  27.42 -24.70
+  32.96 -25.26
+endline
+line u:splay -visibility off
+  30.65 -55.20
+  30.52 -54.53
+endline
+line u:splay -visibility off
+  30.65 -55.20
+  30.92 -54.99
+endline
+line u:splay -visibility off
+  30.65 -55.20
+  30.31 -55.19
+endline
+line u:splay -visibility off
+  30.65 -55.20
+  29.92 -54.76
+endline
+line u:splay -visibility off
+  30.65 -55.20
+  28.89 -54.81
+endline
+line u:splay -visibility off
+  30.65 -55.20
+  34.28 -53.12
+endline
+line u:splay -visibility off
+  30.65 -55.20
+  39.23 -51.92
+endline
+line u:splay -visibility off
+  40.90 -51.66
+  42.39 -51.72
+endline
+line u:splay -visibility off
+  40.90 -51.66
+  36.45 -51.34
+endline
+line u:splay -visibility off
+  40.90 -51.66
+  40.12 -32.14
+endline
+line u:splay -visibility off
+  40.90 -51.66
+  41.21 -56.94
+endline
+line u:splay -visibility off
+  47.71 -51.37
+  46.29 -50.73
+endline
+line u:splay -visibility off
+  47.71 -51.37
+  49.11 -50.96
+endline
+line u:splay -visibility off
+  47.71 -51.37
+  52.10 -51.94
+endline
+line u:splay -visibility off
+  47.71 -51.37
+  55.80 -51.10
+endline
+line u:splay -visibility off
+  47.71 -51.37
+  50.55 -62.82
+endline
+line u:splay -visibility off
+  55.76 -59.84
+  54.85 -59.50
+endline
+line u:splay -visibility off
+  55.76 -59.84
+  52.89 -59.67
+endline
+line u:splay -visibility off
+  55.76 -59.84
+  58.56 -60.18
+endline
+line u:splay -visibility off
+  55.76 -59.84
+  66.88 -62.00
+endline
+line u:splay -visibility off
+  55.76 -59.84
+  68.06 -61.80
+endline
+line u:splay -visibility off
+  55.76 -59.84
+  59.29 -66.35
+endline
+line u:splay -visibility off
+  55.76 -59.84
+  54.70 -45.61
+endline
+
+point 13.12 -15.75 station -name "3"
+point 16.90 -7.71 station -name "2"
+point 0.09 -6.77 station -name "4"
+point -13.57 -15.54 station -name "5"
+point -18.91 -25.84 station -name "6"
+point -7.34 -0.30 station -name "7"
+point -18.29 12.76 station -name "8"
+point -40.48 48.83 station -name "9"
+point 20.75 -24.91 station -name "10"
+point 27.42 -24.70 station -name "11"
+point 30.65 -55.20 station -name "12"
+point 40.90 -51.66 station -name "13"
+point 47.71 -51.37 station -name "14"
+point 55.76 -59.84 station -name "15"
+point 67.79 -61.66 station -name "16"
+point 35.66 -14.17 station -name "1"
+point 51.31 -11.51 station -name "0"
+
+
+endscrap
+
