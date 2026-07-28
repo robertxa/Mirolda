@@ -8,7 +8,7 @@ encoding  utf-8
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>   
   
  # 1-SOURCES 
-source CF-tot.th
+source L-tot.th
    
  # 2-LAYOUT   
  # Debut de la definition du Layout "xviexport"
@@ -24,7 +24,7 @@ source CF-tot.th
  # fin de la définition du layout "xviexport" 
   
  layout my_layout  
-   doc-title "zone CF"
+   doc-title "zone L"
    doc-author "Xavier Robert"
    cs UTM32
    base-scale 1 1000
@@ -86,7 +86,7 @@ source CF-tot.th
    \edef\nostring{}            % empty string
    \ifx\temp\nostring          % test if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
- 		\cavename={Trous CF} 		
+ 		\cavename={Trous L} 		
    \else % if not empty keep the value set by therion, or assign an override cavename here
    \fi
    endcode  
@@ -97,8 +97,8 @@ source CF-tot.th
     
   
  # 3-EXPORTS   
- #export map -fmt xvi -layout xviexport -o trousCFmap.xvi
+ #export map -fmt xvi -layout xviexport -o trousEUmap.xvi
    
- export map -o trouCFplan.pdf -layout my_layout
+ export map -o trouL.pdf -layout my_layout
 
- export model -o trouCF.kml
+ export model -o trouL.kml
